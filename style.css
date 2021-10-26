@@ -6,13 +6,13 @@ nav {
     display: flex;
     justify-content: space-between, space-around;
 }
-.d-btn-nav {
+.btn-nav {
     display: flex;
     justify-content: space-between, space-around;
     margin-left: auto;
     margin-right: 40px;
 }
-#btn-nav {
+.btn-nav button {
     margin-left: 40px;
     background-color: transparent;
     border: none;
@@ -28,9 +28,8 @@ nav {
 
 .hi {
     color: white;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-left: 8%;
-    margin-bottom: 15%;
 }
 #hi1 {
     margin: 0%;
@@ -40,12 +39,18 @@ nav {
     text-shadow: 2px 2px 4px white;
 }
 #hi2 {
-    margin-left: 30px;
+    margin-left: 4%;
     margin-top: 10px;
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     text-shadow: 1px 1px 2px white;
     ;
+}
+
+.about {
+    margin-top: -2%;
+    margin-bottom: 15%;
+    margin-left: 10%;
 }
 
 .social {
@@ -57,11 +62,6 @@ nav {
     margin-bottom: 20px;
 }
 
-.content {
-    margin-top: 0px;
-    margin-left: 10%;
-    margin-bottom: 10%;
-}
 #titulo {
     font-family: 'Rubik', sans-serif;
     font-size: 25px;
@@ -77,14 +77,57 @@ nav {
 }
 
 .skills {
+    margin-top: 0px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.table-skills {
     margin: 0;
     padding: 0;
     display: flex;
     margin-left: 50px;
     margin-top: 80px;
 }
-.skills th {
+.table-skills th {
     padding-right: 100px;
     padding-left: 100px;
     padding-bottom: 40px;
+}
+
+.projects {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+.table-projects {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+.table-projects th {
+    background-color: #05445E;
+    width: 400px;
+    height: 250px;
+}
+.projects-content {
+    
+    display: flex;
+}
+.projects-content img {
+    margin-right: -100px;
+}
+#projects-t {
+
+}
+#projects-content {
+
+}
+#projects-leng {
+
+}
+#projects-web {
+
+}
+#projects-code {
+
 }
