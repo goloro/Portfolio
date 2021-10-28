@@ -94,14 +94,21 @@ nav {
 .projects {
     margin-top: 0px;
     margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 10%;
 }
-.grid-container {
+.projects-content {
     display: grid;
     grid-template-columns: auto auto;
+    grid-gap: 50px 50px;
     margin-left: 10%;
+    margin-right: 10%;
     margin-top: 80px;
 }
-.grid-item {
+.projects-item {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column: 1 / 2;
     text-align: center;
+    background-color: #05445E;
 }
