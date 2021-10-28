@@ -5,6 +5,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between, space-around;
+    
 }
 .btn-nav {
     display: flex;
@@ -111,12 +112,13 @@ nav {
     'header1 header2'
     'main web'
     'footer1 footer2';
-    /*background-color: #05445E;*/
-    background-color: #042735;
-    border-style: solid;
+    /*background-color: #05445E;
+    background-color: #042735;*/
+    background-color: #262530;
+    /*border-style: solid;
     border-width: 1px;
-    border-color: #75E6DA;
-    border-radius: 8px;
+    border-color: #75E6DA;*/
+    border-radius: 4px;
 }
 .item1 { 
     grid-area: header1;
@@ -126,16 +128,25 @@ nav {
 .item2 { 
     grid-area: header2;
     margin-left: -150px;
+    margin-top: -8px;
     color: white;
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
 }
 .item3 { 
     grid-area: main; 
-    font-size: 12px;
-    margin-left: 15px;
+    font-size: 11px;
+    margin-left: 20px;
+    width: 170px;
     color: white;
+    font-family: 'Comfortaa', cursive;
 }
 .item4 { 
-    grid-area: web; 
+    grid-area: web;
+    margin-bottom: 15px;
+}
+#web {
+    border-radius: 4px; 
 }
 .item5 { 
     grid-area: footer1; 
@@ -146,4 +157,22 @@ nav {
 .item6 { 
     grid-area: footer2; 
     text-align: center;
+    margin-bottom: 20px;
+}
+#projects-code {
+    color: white;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
+.contact {
+    margin-top: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
