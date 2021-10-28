@@ -81,53 +81,27 @@ nav {
     margin-left: 10%;
     margin-bottom: 10%;
 }
-.table-skills {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    margin-left: 50px;
+.skills-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 10%;
     margin-top: 80px;
 }
-.table-skills th {
-    padding-right: 100px;
-    padding-left: 100px;
+.skills-item {
     padding-bottom: 40px;
 }
 
 .projects {
+    margin-top: 0px;
     margin-left: 10%;
-    margin-right: 10%;
     margin-bottom: 10%;
 }
-.table-projects {
-    margin-left: 50px;
-    margin-right: 50px;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 10%;
     margin-top: 80px;
 }
-.table-projects th {
-    background-color: #05445E;
-    width: 400px;
-    height: 250px;
-}
-.projects-content {
-    
-    display: flex;
-}
-.projects-content img {
-    margin-right: -100px;
-}
-#projects-t {
-
-}
-#projects-content {
-
-}
-#projects-leng {
-
-}
-#projects-web {
-
-}
-#projects-code {
-
+.grid-item {
+    text-align: center;
 }
