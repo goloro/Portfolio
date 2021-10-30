@@ -7,18 +7,21 @@ nav {
     justify-content: space-between, space-around;
     
 }
+#perslogo {
+    margin-left: 10px;
+}
 .btn-nav {
     display: flex;
     justify-content: space-between, space-around;
     margin-left: auto;
-    margin-right: 40px;
+    margin-right: 50px;
 }
 .btn-nav button {
-    margin-left: 40px;
+    margin-left: 50px;
     background-color: transparent;
     border: none;
     font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #75E6DA;
 }
 
@@ -157,27 +160,48 @@ nav {
     color: white;
     display: flex;
 }
-.item5 #JS{
+.item5 #JS1{
     width: 70px;
     height: 5px;
     background-color: #f1e05a;
     border: none;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    color: black;
+    font-size: 10px;
+    text-align: center;
 }
-.item5 #CSS{
+.item5 #JS1:hover {
+    height: 12px;
+    margin-top: -3px;
+}
+.item5 #CSS1{
     width: 60px;
     height: 5px;
     background-color: #563d7c;
     border: none;
+    color: black;
+    font-size: 10px;
+    text-align: center;
 }
-.item5 #HTML{
+.item5 #CSS1:hover {
+    height: 12px;
+    margin-top: -3px;
+}
+.item5 #HTML1{
     width: 40px;
     height: 5px;
     background-color: #e34c26;
     border: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    color: black;
+    font-size: 10px;
+    text-align: center;
+}
+.item5 #HTML1:hover {
+    height: 12px;
+    margin-top: -3px;
 }
 .item6 { 
     grid-area: footer2; 
@@ -193,7 +217,7 @@ nav {
     border-color: white;
     border-radius: 10px;
     padding: 5px 5px;
-    font-size: 13px;
+    font-size: 11px;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -202,4 +226,42 @@ nav {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 10%;
+}
+.contact-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+}
+.contact-social1 {
+    display: flex;
+    margin-top: 60px;
+}
+.contact-social {
+    display: flex;
+}
+.contact-social1 img {
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.contact-social img {
+    margin-top: 5px;
+    margin-left: 40px;
+}
+#contact-p {
+    margin-left: 15px;
+    margin-top: 20px; 
+    color: white;
+    font-family: 'Ubuntu', sans-serif;  
+}
+#contact-p2 {
+    margin-left: 15px;
+    margin-top: 16px; 
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.contact-map {
+    margin-top: 15px;
 }

@@ -20,7 +20,7 @@
         <!--NAV-->
         <nav>
             <!--Logo Personal-->
-            <img src = "Images/logo_glr_blue.png" alt = "Personal Logo" width = "40" height = "40">
+            <img id="perslogo" src = "Images/logo_glr_blue.png" alt = "Personal Logo" width = "40" height = "40">
 
             <!--Botones nav-->
             <div class = "btn-nav">
@@ -96,9 +96,9 @@
                         <a target="_blank" href="https://goloro.github.io/ToDoList/"><img id = "web" src = "Images/Webs/todolist.png" alt = "WebToDoList" width = "150" height = "100"></a>
                     </div>
                     <div class="item5">
-                        <button id="JS"></button>
-                        <button id="CSS"></button>
-                        <button id="HTML"></button>
+                        <button id="JS1" onmouseover="ONhoverLenguajesJS()" onmouseout="OFFhoverLenguajesJS()"></button>
+                        <button id="CSS1" onmouseover="ONhoverLenguajesCSS()" onmouseout="OFFhoverLenguajesCSS()"></button>
+                        <button id="HTML1" onmouseover="ONhoverLenguajesHTML()" onmouseout="OFFhoverLenguajesHTML()"></button>
                     </div>
                     <div class="item6">
                         <a id="projects-code" target="_blank" href = "https://github.com/goloro/ToDoList">View Code</a>
@@ -112,18 +112,18 @@
                         <p>API CONSULTS</p>
                     </div>
                     <div class="item3">
-                        <p>Simple to do list with local storage</p>
+                        <p>API consults using AJAX, Fetch and axios</p>
                     </div>
                     <div class="item4">
-                        <img id = "web" src = "Images/Webs/todolist.png" alt = "WebToDoList" width = "150" height = "100">
+                        <a target="_blank" href="https://goloro.github.io/ApiConsults/"><img id = "web" src = "Images/Webs/todolist.png" alt = "WebToDoList" width = "150" height = "100"></a>
                     </div>
                     <div class="item5">
-                        <button id="JS"></button>
+                        <button  id="JS"></button>
                         <button id="CSS"></button>
                         <button id="HTML"></button>
                     </div>
                     <div class="item6">
-                        <a id="projects-code" target="_blank" href = "https://github.com/goloro/ToDoList">View Code</a>
+                        <a id="projects-code" target="_blank" href = "https://github.com/goloro/ApiConsults">View Code</a>
                     </div>
                 </div>
             </div>
@@ -132,6 +132,28 @@
         <!--CONTACT-->
         <div class="contact">
             <p id="titulo">.contact( )</p>
+            <div class="contact-content">
+                <div>
+                    <div class="contact-social1">
+                        <a target="_blank" href="https://github.com/goloro"><img id = "logo" src = "Images/github_logo_blue.png" alt = "Logo GitHub" width = "50" height = "50"></a>
+                        <p id="contact-p">goloro</p>
+                    </div>
+                    <div class="contact-social">
+                        <a target="_blank" href="https://www.linkedin.com/in/gonzalo-lópez-rodríguez-b919101ba/"><img id = "logo" src = "Images/linkedin_logo_blue.png" alt = "Logo Linkedin" width = "50" height = "50"></a>
+                        <p id="contact-p">Gonzalo López Rodríguez</p>
+                    </div>
+                    <div class="contact-social">
+                        <img id = "logo" src = "Images/email_logo_blue.png" alt = "Logo Email" width = "50" height = "45">
+                        <p id="contact-p2">goloro02@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <img id = "logo" src = "Images/mapa-europa.png" alt = "Map" width = "450" height = "300">
+                </div>
+            </div>
         </div>
+        
+        <!--SCRIPT-->
+        <script src = "script.js"></script>
     </body>
 </html>
