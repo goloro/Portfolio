@@ -16,7 +16,7 @@ nav {
     background-color: #1c1b24;
 }
 #perslogo {
-    margin-top: 15px;
+    margin-top: 14px;
     margin-left: 60%;
 }
 .btn-nav {
@@ -49,35 +49,28 @@ nav {
 
 .portada {
     display: flex;
-    justify-content: space-between, space-around;
 }
-
 .hi {
     color: white;
-    margin-top: 8%;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 12%;
     margin-left: 8%;
 }
 #hi1 {
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Work Sans', sans-serif;
     font-size: 100px;
     text-shadow: 2px 2px 4px white;
 }
 #hi2 {
     margin-left: 4%;
-    margin-top: 10px;
+    margin-top: 20px;
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     text-shadow: 1px 1px 2px white;
-    ;
 }
-
 .about {
-    margin-top: 0;
+    margin-top: 1%;
     margin-left: 10%;
 }
-
 .social {
     margin-left: auto;
     margin-top: 220px;
@@ -116,7 +109,6 @@ nav {
     width: 90%;
     letter-spacing: 2px;
 }
-
 .skills {
     margin-top: 8.5%;
     margin-left: 5%;
@@ -150,12 +142,7 @@ nav {
     'header1 header2'
     'main web'
     'footer1 footer2';
-    /*background-color: #05445E;
-    background-color: #042735;*/
     background-color: #363442;
-    /*border-style: solid;
-    border-w    idth: 1px;
-    border-color: #75E6DA;*/
     border-radius: 4px;
     border: 1px solid #363442; 
 }
@@ -165,13 +152,13 @@ nav {
 }
 .folder { 
     grid-area: header1;
-    margin-left: 12px; 
-    margin-top: 20px; 
+    margin-left: 16px; 
+    margin-top: 12px; 
 }
 .titulo { 
     grid-area: header2;
-    margin-left: -170px;
-    margin-top: 2px;
+    margin-left: -80%;
+    margin-top: 13px;
     color: white;
     font-size: 20px;
     font-family: 'Secular One', sans-serif;
@@ -179,14 +166,16 @@ nav {
 .descrip { 
     grid-area: main; 
     font-size: 11px;
-    margin-left: 20px;
-    width: 170px;
+    margin-top: 22%;
+    margin-left: 25px;
+    width: 160px;
     color: white;
     font-family: 'Comfortaa', cursive;
 }
 .web { 
     grid-area: web;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 #web {
     border-radius: 4px; 
@@ -208,11 +197,7 @@ nav {
     background-color: #f1e05a;
     border: none;
     border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    color: black;
-    font-size: 15px;
-    text-align: center;
-    
+    border-bottom-left-radius: 10px; 
 }
 .lenguajes #JS1:hover {
     height: 10px;
@@ -223,9 +208,6 @@ nav {
     height: 5px;
     background-color: #563d7c;
     border: none;
-    color: black;
-    font-size: 15px;
-    text-align: center;
 }
 .lenguajes #CSS1:hover {
     height: 10px;
@@ -238,9 +220,7 @@ nav {
     border: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    color: black;
-    font-size: 15px;
-    text-align: center;
+
 }
 .lenguajes #HTML1:hover {
     height: 10px;
