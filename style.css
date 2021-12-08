@@ -1,299 +1,107 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    /*background-color: #15141A;*/
-    background-color: #262530;
+    background-color: #1C1B24;
+    display: flex;
 }
 
-nav {
-    display: flex;
+.barraLateral {
+    position: absolute;
     position: fixed;
-    width: 100%;
-    height: 70px;
-    background-color: #1c1b24;
-}
-#perslogo {
-    margin-top: 14px;
-    margin-left: 60%;
-}
-.btn-nav {
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.btn-nav a {
-    border: none;
-    text-decoration: none;
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
-    color: #75E6DA;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 6px;
-}
-.btn-nav a:hover {
-    color: #15141A;
-    box-shadow: 0 0px 11px 0 #75E6DA;
-    background-color: #75E6DA;
-    text-decoration: none;
-}
-
-.portada {
+    right: 0;
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(241, 241, 241);
     display: flex;
+    flex-direction: column;
 }
-.hi {
-    color: white;
-    font-family: 'Work Sans', sans-serif;
-    margin-top: 12%;
-    margin-left: 8%;
+#LogoPersRed {
+    margin: 8% auto 5% auto;
 }
-#hi1 {
-    font-size: 100px;
-    text-shadow: 2px 2px 4px white;
-}
-#hi2 {
-    margin-left: 4%;
-    margin-top: 20px;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 40px;
-    text-shadow: 1px 1px 2px white;
-}
-.about {
-    margin-top: 1%;
-    margin-left: 10%;
-}
-.social {
-    margin-left: auto;
-    margin-top: 220px;
-    margin-right: 30px;
-}
-.social li {
-    list-style-type: none;
-}
-#logogit, #logolink, #logogmail {
-    margin-bottom: 30px;
-}
-#logogit:hover {  
-    content: url('Images/github_logo_blue.png');
-}
-#logolink:hover {
-    content: url('Images/linkedin_logo_blue.png');
-}
-#logogmail:hover {
-    content: url('Images/email_logo_blue.png');
-}
-#logogit:active, #logolink:active, #logogmail:active {
-    transform: translateY(2px);
-}
-
-#titulo {
-    font-family: 'Rubik', sans-serif;
-    font-size: 25px;
-    color: #75E6DA;
-    margin-left: 5%;
-}
-#txt {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    color: white;
-    margin-left: 10px;
-    width: 90%;
-    letter-spacing: 2px;
-}
-.skills {
-    margin-top: 8.5%;
-    margin-left: 5%;
-}
-.skills-content {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-left: 14%;
-    margin-top: 80px;
-}
-.skills-item {
-    padding-bottom: 100px;
-}
-
-.projects {
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-.projects-content {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 50px 50px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 80px;
-}
-.projects-item {
-    display: grid;
-    grid-template-areas: 
-    'header1 header2'
-    'main web'
-    'footer1 footer2';
-    background-color: #363442;
-    border-radius: 4px;
-    border: 1px solid #363442; 
-}
-.projects-item:hover {
-    border-color: #75E6DA;
-    box-shadow: 0px 0px 8px 0px #75E6DA;
-}
-.folder { 
-    grid-area: header1;
-    margin-left: 16px; 
-    margin-top: 12px; 
-}
-.titulo { 
-    grid-area: header2;
-    margin-left: -80%;
-    margin-top: 13px;
-    color: white;
-    font-size: 20px;
-    font-family: 'Secular One', sans-serif;
-}
-.descrip { 
-    grid-area: main; 
-    font-size: 11px;
-    margin-top: 22%;
-    margin-left: 25px;
-    width: 160px;
-    color: white;
-    font-family: 'Comfortaa', cursive;
-}
-.web { 
-    grid-area: web;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-#web {
-    border-radius: 4px; 
-}
-#web:hover {
-    box-shadow: 0px 0px 8px 0px #4f4d5e;
-}
-.lenguajes { 
-    grid-area: footer1; 
-    font-size: 10px;
-    margin-left: 15px;
-    margin-top: 10px;
-    color: white;
-    display: flex;
-}
-.lenguajes #JS1{
-    width: 70px;
-    height: 5px;
-    background-color: #f1e05a;
-    border: none;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px; 
-}
-.lenguajes #JS1:hover {
-    height: 10px;
-    margin-top: -2px;
-}
-.lenguajes #CSS1{
-    width: 60px;
-    height: 5px;
-    background-color: #563d7c;
-    border: none;
-}
-.lenguajes #CSS1:hover {
-    height: 10px;
-    margin-top: -2px;
-}
-.lenguajes #HTML1{
-    width: 40px;
-    height: 5px;
-    background-color: #e34c26;
-    border: none;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-
-}
-.lenguajes #HTML1:hover {
-    height: 10px;
-    margin-top: -2px;
-}
-.code { 
-    grid-area: footer2; 
+.nombre {
+    margin: 0 auto 0 auto;
     text-align: center;
-    margin-bottom: 20px;
-    margin-left: -30px;
+    color: #1C1B24;
 }
-#projects-code {
-    color: white;
-    text-decoration: none;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    border-radius: 10px;
-    padding: 5px 5px;
-    font-size: 11px;
-    font-family: 'Ubuntu', sans-serif;
+.nombre h1 {
+    font-family: 'Saira', sans-serif;
 }
-#projects-code:hover {
-    border-color: #75E6DA;
-    color: #75E6DA;;
+.nombre h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.redesBL {
+    display: flex;
+    width: 90%;
+    margin: 8% 2% 1% auto;
+    gap: 26%;
+}
+.redesBL a {
+    margin: auto 0 auto 0;
+}
+#lineaBL {
+    width: 90%;
+    margin: 1% auto 2% auto;
+    height: 2px;
+    color: #1C1B24;
 }
 
-.contact {
-    margin-top: 10.5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 10%;
-}
-.contact-content {
+/* CONTENT */
+.portada{
+    padding: 25px;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 60px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 80%;
 }
-.contact-social1 {
-    display: flex;
-    margin-top: 60px;
-}
-.contact-social {
+/* ITEMS */
+.cabeceraItem {
     display: flex;
 }
-.contact-social1 img {
-    margin-top: 5px;
-    margin-left: 40px;
-    margin-bottom: 20px;
+.cabeceraItem img, #gitHub {
+    margin: auto 2.5% auto 2.5%;
 }
-.contact-social img {
-    margin-top: 5px;
-    margin-left: 40px;
-    margin-bottom: 20px;
+#gitHub {
+    margin: 1.5% 2.5% auto 2.5%;
 }
-#contact-p {
-    margin-left: 15px;
-    margin-top: 20px; 
+#Titulo {
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    letter-spacing: 2px;
     color: white;
-    font-family: 'Ubuntu', sans-serif;  
+    width: 100%;
+    text-align: center;
 }
-#contact-p2 {
-    margin-left: 15px;
-    margin-top: 16px; 
+.item {
+    display: flex;
+    flex-direction: column;
+    background-color: #42414A;
+    border-radius: 6px;
+    width: 100%;
+}
+.item:hover {
+    box-shadow: 0px 0px 8px rgba(107, 104, 104, 0.733);
+}
+#webImage {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}#aWebImage {
+    margin: 1% auto 0% auto;
+    width: 96%;
+}
+.lenguajesItem {
+    display: flex;
+    gap: 10%;
+    margin-left: 5%;
+    width: 91.5%;
+    justify-content: center;
+    margin-bottom: 6px;
+    font-size: 10px;
     color: white;
-    font-family: 'Ubuntu', sans-serif;
-}
-.contact-map {
-    margin-top: 10px;
-}
-#map {
-    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
 }
