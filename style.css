@@ -159,3 +159,18 @@ body {
     margin: auto 0 2% 5%;
     margin-top: 1%;
 }
+
+/* SKILLS CONTENT */
+.skills {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.SkillsContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    gap: 20%;
+    margin: 5% auto 6.5% auto;
+}
