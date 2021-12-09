@@ -73,11 +73,17 @@ body {
 
 
 /* CONTENT */
+#tituloPortada {
+    color: white;
+    font-size: 4.5rem;
+    margin: 2.5% 0% 0% 3%;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 4px;
+}
 .portada{
-    padding: 25px;
+    padding: 3%;
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     width: 80%;
 }
@@ -92,12 +98,13 @@ body {
     margin: 1.5% 2.5% auto 2.5%;
 }
 #Titulo {
-    font-family: 'Righteous', cursive;
-    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
     letter-spacing: 2px;
     color: white;
     width: 100%;
     text-align: center;
+    margin: auto 0 auto 0;
 }
 .item {
     display: flex;
@@ -113,18 +120,20 @@ body {
     width: 100%;
     border-radius: 5px;
     object-fit: cover;
+    margin-top: 1%;
 }#aWebImage {
-    margin: 1% auto 0% auto;
+    margin: auto auto 0% auto;
     width: 96%;
 }
 .lenguajesItem {
     display: flex;
     gap: 10%;
-    margin-left: 5%;
     width: 91.5%;
     justify-content: center;
     margin-bottom: 6px;
     font-size: 10px;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    margin: auto 0 2% 5%;
+    margin-top: 1%;
 }
