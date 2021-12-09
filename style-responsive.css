@@ -27,8 +27,10 @@
 
     .SkillsContent {
         grid-template-columns: 1fr 1fr;
+        margin-top: 6%;
     }
     #tituloSkills {
+        margin-top: 12%;
         font-size: 2rem;
         text-align: center;
     }
