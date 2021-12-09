@@ -45,7 +45,7 @@ body {
 #lineaBL {
     width: 90%;
     margin: 1% auto 2% auto;
-    height: 2px;
+    size: 5px;
     color: #1C1B24;
 }
 
