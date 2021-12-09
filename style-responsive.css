@@ -1,11 +1,28 @@
+/* PC */
+@media screen and (max-width: 1500px) and (min-width: 1000px) {
+    
+}
+
 /*MOBILE*/
-@media screen and (min-width: 300px) and (max-width: 812px) {
+@media screen and (max-width: 450px) {
     .barraLateral {
         display: none;
     }
-    
-    .h1 {
-        font-size: 5px;
-        color: blue
+    .menuResponsive {
+        display: flex;
+    }
+
+    .portada {
+        grid-template-columns: 1fr;
+        margin: 0;
+        width: 100%;
+    }
+
+    #tituloPortada {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 8%;
+        margin-bottom: 5%;
+        margin-left: -0.5%;
     }
 }

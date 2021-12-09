@@ -6,9 +6,31 @@
 
 body {
     background-color: #1C1B24;
+}
+.subBody {
     display: flex;
 }
 
+/* MENU RESPONSIVE */
+.menuResponsive {
+    display: none;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(241, 241, 241, 0.979);
+}
+#nombreRes {
+    margin: auto 0 auto 4%;
+    font-size: 25px;
+    font-family: 'Arimo', sans-serif;
+}
+#LogoPersRedRes {
+    margin: auto 0 auto 2%;
+}
+#BarraMenuRes {
+    margin: auto 2% auto auto;
+}
+
+/* BARRA LATERAL */
 .barraLateral {
     position: absolute;
     position: fixed;
