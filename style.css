@@ -51,7 +51,7 @@ body {
     border: none;
 }
 .menuBL {
-    margin-top: 4.5%;
+    margin-top: 10%;
 }
 .menuBL a {
     text-decoration: none;
@@ -59,7 +59,7 @@ body {
 .itemMenuBL {
     display: flex;
     margin-left: 10%;
-    margin-top: 4%;
+    margin-bottom: 4%;
     color: #1C1B24;
     font-family: 'Fira Sans', sans-serif;
 }
