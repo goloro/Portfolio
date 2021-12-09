@@ -23,6 +23,13 @@
         text-align: center;
         margin-top: 8%;
         margin-bottom: 5%;
-        margin-left: -0.5%;
+    }
+
+    .SkillsContent {
+        grid-template-columns: 1fr 1fr;
+    }
+    #tituloSkills {
+        font-size: 2rem;
+        text-align: center;
     }
 }

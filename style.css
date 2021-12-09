@@ -167,6 +167,14 @@ body {
     flex-direction: column;
     margin-bottom: 5%;
 }
+#tituloSkills {
+    color: white;
+    font-size: 4rem;
+    margin: 2.5% 0% 0% 3%;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 4px;
+    width: 125%;
+}
 .SkillsContent {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
