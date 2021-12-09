@@ -97,10 +97,11 @@ body {
 /* CONTENT */
 #tituloPortada {
     color: white;
-    font-size: 4.5rem;
+    font-size: 3rem;
     margin: 2.5% 0% 0% 3%;
     font-family: 'Cabin', sans-serif;
     letter-spacing: 4px;
+    width: 100%;
 }
 .portada{
     padding: 3%;
@@ -169,7 +170,7 @@ body {
 }
 #tituloSkills {
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 2.5% 0% 0% 3%;
     font-family: 'Cabin', sans-serif;
     letter-spacing: 4px;
