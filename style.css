@@ -58,13 +58,18 @@ body {
 }
 .redesBL {
     display: flex;
-    width: 90%;
-    margin: 8% 2% 1% auto;
-    gap: 26%;
+    width: 85%;
+    margin: 8% auto 1% auto;
 }
-.redesBL a {
-    margin: auto 0 auto 0;
-}
+    #gitBL {
+        margin: auto auto auto 0;
+    }
+    #linkBL {
+        margin: auto auto auto auto;
+    }
+    #emailBL {
+        margin: auto 0 auto auto;
+    }
 #lineaBL {
     width: 90%;
     margin: 1% auto 2% auto;
@@ -73,7 +78,8 @@ body {
     border: none;
 }
 .menuBL {
-    margin-top: 10%;
+    margin-top: 8%;
+    height: fit-content;
 }
 .menuBL a {
     text-decoration: none;
@@ -83,7 +89,7 @@ body {
     margin-left: 10%;
     margin-bottom: 5%;
     color: #1C1B24;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;   
 }
 .itemMenuBL img, .itemMenuBL p {
     margin: auto 0 auto 0;
@@ -98,7 +104,7 @@ body {
 #tituloPortada {
     color: white;
     font-size: 3rem;
-    margin: 2.5% 0% 0% 3%;
+    margin: 1% 0% 0% 3%;
     font-family: 'Cabin', sans-serif;
     letter-spacing: 4px;
     width: 80%;
@@ -162,19 +168,19 @@ body {
 }
 
 /* SKILLS CONTENT */
-.skills {
-    display: flex;
-    width: 80%;
-    flex-direction: column;
-    margin-bottom: 5%;
-}
-#tituloSkills {
+#titulos {
     color: white;
     font-size: 3rem;
     margin: 2.5% 0% 0% 3%;
     font-family: 'Cabin', sans-serif;
     letter-spacing: 4px;
-    width: 100%;
+    width: 80%;
+}
+.skills {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin-bottom: 5%;
 }
 .SkillsContent {
     display: grid;
@@ -182,4 +188,13 @@ body {
     width: 80%;
     gap: 20%;
     margin: 5% auto 6.5% auto;
+}
+
+/* ABOUT */
+.aboutMeContent {
+    width: 80%;
+    display: flex;
+}
+.aboutMeContent iframe {
+    margin: 5% auto 5% auto;
 }
