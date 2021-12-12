@@ -1,5 +1,5 @@
 /* PC */
-@media screen and (max-width: 1500px) and (min-width: 1000px) {
+@media screen and (max-width: 2000px) and (min-width: 1500px) {
     
 }
 
@@ -18,20 +18,35 @@
         width: 100%;
     }
 
-    #tituloPortada {
-        font-size: 1.5rem;
-        text-align: center;
-        margin-top: 8%;
-        margin-bottom: 5%;
-    }
-
     .SkillsContent {
         grid-template-columns: 1fr 1fr;
         margin-top: 6%;
     }
-    #tituloSkills {
+
+    .aboutMeContent {
+        margin-top: 6%;
+        flex-direction: column;
+        width: 80%;
+    }
+    .CV {
+        width: 50%;
+        margin: 5% auto 5% auto;
+    }
+    .CV div {
+        margin: 0 0 0 5px;
+    }
+    #downloadIMG {
+        width: 25%;
+    }
+    #map {
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    #tituloPortada, #tituloSkills, #tituloAboutMe{
+        font-size: 1.5rem;
         margin-top: 12%;
-        font-size: 2rem;
         text-align: center;
+        margin: 8% auto 5% auto;
     }
 }

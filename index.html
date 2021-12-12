@@ -57,7 +57,7 @@
                                 <p>SKILLS</p>
                             </div>
                         </a>
-                        <a href="#projects">
+                        <a href="#aboutMe">
                             <div class="itemMenuBL">
                                 <img src="Images/aboutMe.svg" width="30" height="30">
                                 <p>ABOUT ME</p>
@@ -128,9 +128,8 @@
                 </div>
 
                 <!-- SKILLS -->
+                <h1 id="tituloSkills">SKILLS</h1>
                 <div class="skills" id="skills">
-                    <h1 id="titulos">SKILLS</h1>
-
                     <div class="SkillsContent">
                         <img src="Images/js_logo.png" width="150" height="150">
                         <img src="Images/html_logo.png" width="150" height="150">
@@ -141,14 +140,27 @@
                     </div>
                 </div>
 
+                <!-- ABOUT ME -->
+                <h1 id="tituloAboutMe">ABOUT ME</h1>
                 <div class="aboutMe" id="aboutMe">
-                    <h1 id="titulos">ABOUT ME</h1>
-
                     <div class="aboutMeContent">
-                        <iframe src="https://docs.google.com/viewer?srcid=1B03VaNKdqTuniFdkenSHLR2BsdQSr5Wh&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="40%" height="780px"></iframe>
+                        <a class="CV" href="https://drive.google.com/file/d/1B03VaNKdqTuniFdkenSHLR2BsdQSr5Wh/view" target="blank">
+                            <div>
+                                <img id="downloadIMG" src="Images/download.svg" width="70" height="60">
+                                <p id="download">View my CV!</p>
+                            </div>
+                        </a>
+
+                        <div id="map">
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <script src="script.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMapa"></script>
+        
     </body>
 </html>
