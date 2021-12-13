@@ -57,6 +57,9 @@
         grid-template-columns: 1fr 1fr;
         margin-top: 6%;
     }
+    #skIMG {
+        margin-right: 50px;
+    }
 
     .aboutMeContent {
         margin-top: 6%;
