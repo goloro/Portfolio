@@ -36,7 +36,7 @@
         padding-bottom: 4%;
         margin: 0 auto 0 auto;
     }
-    #tituloPortada {
+    #tituloPortada, #tituloAboutMe, #tituloSkills {
         width: 100%;
         margin: auto 0 auto 0;
     }
@@ -56,6 +56,9 @@
     .SkillsContent {
         grid-template-columns: 1fr 1fr;
         margin-top: 6%;
+    }
+    .SkillsContent img {
+        margin-bottom: 50px;
     }
     #skIMG {
         margin-right: 50px;
