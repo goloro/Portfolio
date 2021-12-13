@@ -29,6 +29,10 @@
         display: flex;
     }
 
+    .lenguajesItem {
+        font-size: 15px;
+    }
+
     .divTitulos{
         width: 90%;
         text-align: center;
