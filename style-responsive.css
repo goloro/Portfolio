@@ -29,6 +29,24 @@
         display: flex;
     }
 
+    .divTitulos{
+        width: 90%;
+        text-align: center;
+        padding-top: 7%;
+        padding-bottom: 4%;
+        margin: 0 auto 0 auto;
+    }
+    #tituloPortada {
+        width: 100%;
+        margin: auto 0 auto 0;
+    }
+    .lineaPortada {
+        margin: auto 2% auto 2%;
+        width: 50%;
+    }
+    #lM {
+        display: flex;
+    }
     .portada {
         grid-template-columns: 1fr;
         margin: 0;
@@ -62,8 +80,8 @@
 
     #tituloPortada, #tituloSkills, #tituloAboutMe{
         font-size: 1.5rem;
-        margin-top: 12%;
+        /* margin-top: 12%; */
         text-align: center;
-        margin: 8% auto 5% auto;
+        /* margin: 8% auto 5% auto; */
     }
 }

@@ -107,10 +107,24 @@ body {
 #tituloPortada {
     color: white;
     font-size: 3rem;
-    margin: 1% 0% 0% 3%;
+    margin: 1% 0% 1% 3%;
     font-family: 'Cabin', sans-serif;
     letter-spacing: 4px;
-    width: 80%;
+    width: 25%;
+}
+.divTitulos {
+    display: flex;
+}
+.lineaPortada {
+    width: 49%;
+    margin: auto 0 auto 0;
+    height: 7px;
+    background-color: #75e6da;
+    border: none;
+    border-radius: 5px;
+}
+#lM {
+    display: none;
 }
 .portada{
     padding: 3%;
@@ -174,10 +188,13 @@ body {
 #tituloSkills, #tituloAboutMe {
     color: white;
     font-size: 3rem;
-    margin: 2.5% 0% 0% 3%;
+    margin: 2% 0% 2% 3%;
     font-family: 'Cabin', sans-serif;
     letter-spacing: 4px;
-    width: 80%;
+    width: 25%;
+}
+#skills {
+    margin-top: 7%;
 }
 .skills {
     display: flex;
@@ -188,18 +205,23 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 80%;
-    gap: 20%;
-    margin: 5% auto 6.5% auto;
+    margin: 5% auto 0 auto;
+}
+.SkillsContent img {
+    margin-bottom: 100px;
 }
 .SkillsContent img:hover {
     -webkit-transform:scale(1.10);
+}
+#skIMG {
+    margin-right: 160px;
 }
 
 /* ABOUT */
 .aboutMeContent {
     width: 80%;
     display: flex;
-    margin: 5% auto 6.5% auto
+    margin: 8% auto 6% auto
 }
 .CV {
     border: 1px solid white;
