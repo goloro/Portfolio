@@ -1,5 +1,22 @@
-/* PC */
+/* PC GRANDE */
 @media screen and (max-width: 2000px) and (min-width: 1500px) {
+    
+}
+
+/* PC PORTATIL */
+@media screen and (max-width: 1500px) and (min-width: 1000px) {
+    .CV {
+        width: 23%;
+        margin-left: 3%;
+    }
+
+    #map {
+        width: 35%;
+    }
+}
+
+/* TABLET */
+@media screen and (max-width: 1000px) and (min-width: 800px) {
     
 }
 

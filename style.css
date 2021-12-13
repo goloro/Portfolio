@@ -70,6 +70,9 @@ body {
     #emailBL {
         margin: auto 0 auto auto;
     }
+.redesBL img:hover {
+    -webkit-transform:scale(1.05);
+}
 #lineaBL {
     width: 90%;
     margin: 1% auto 2% auto;
@@ -188,6 +191,9 @@ body {
     gap: 20%;
     margin: 5% auto 6.5% auto;
 }
+.SkillsContent img:hover {
+    -webkit-transform:scale(1.10);
+}
 
 /* ABOUT */
 .aboutMeContent {
@@ -212,6 +218,9 @@ body {
     margin: auto 0% auto 10%;
     margin-left: 10%;
     color: white;
+}
+#download:active {
+    transform: translateY(4px);
 }
 .CV:hover, #map:hover {
     box-shadow: 0px 0px 6px #75e6da;
