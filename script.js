@@ -27,3 +27,7 @@ document.querySelector(".itemRes").addEventListener("click", function() {
     document.getElementById("subMenuRes").classList.toggle("showMenuRes")
     // document.getElementById("subMenuRes").style.display = "none"
 })
+
+setTimeout(function() {
+    document.getElementById("inicio").style.display = "none"
+}, 3000)
