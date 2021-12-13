@@ -28,6 +28,27 @@ body {
 }
 #BarraMenuRes {
     margin: auto 2% auto auto;
+    z-index: 10;
+}
+.subMenuRes {
+    display: none;
+    background-color: rgba(241, 241, 241, 0.979);
+    flex-direction: column;
+    padding-top: 5%;
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+}
+.subMenuRes a {
+    text-decoration: none;
+    margin: 2% auto 5% auto;
+    width: 100%;
+    color: #1C1B24;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+.showMenuRes{
+    display: flex;
 }
 
 /* BARRA LATERAL */
@@ -69,6 +90,7 @@ body {
     }
     #emailBL {
         margin: auto 0 auto auto;
+        cursor: pointer;
     }
 .redesBL img:hover {
     -webkit-transform:scale(1.05);
@@ -104,6 +126,9 @@ body {
 
 
 /* CONTENT */
+.filtro {
+    filter: blur(10px);
+}
 #tituloPortada {
     color: white;
     font-size: 3rem;
