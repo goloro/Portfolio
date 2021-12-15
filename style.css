@@ -153,6 +153,59 @@ body {
     size: 25px;
 }
 
+/* PORTADA */
+
+/* .portada {
+    height: 100vh;
+    display: flex;
+    width: 80%;
+
+    position: absolute;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: translateZ(-30vw) rotateY(0);
+    animation: carousel 10s infinite cubic-beizer(0.77, 0, 0.175, 1) forwards;
+}
+.portada-cards {
+    margin: auto;
+    width: 50%;
+    background-color: #42414A;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5%;
+    border-radius: 5px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 60vw;
+    height: 40vw;
+    max-width: 380px;
+    max-height: 250px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.1);
+    border-radius: 6px;
+    transform-origin: center;
+}
+.portada-cards h1 {
+    text-align: center;
+    margin: auto 0 1% 0;
+    color: white;
+    letter-spacing: 4px;
+    font-family: 'Cabin', sans-serif;
+}
+.portada-cards img {
+    width: 100%;
+    width: 0 auto 0 auto;
+    border-radius: 3px;
+}
+@keyframes carousel {
+	0%,  17.5%  { transform: translateZ(-35vw) rotateY(0); }
+	27.5%, 45%  { transform: translateZ(-35vw) rotateY(-120deg); }
+	55%, 72.5%  { transform: translateZ(-35vw) rotateY(-240deg); }
+	82.5%, 100% { transform: translateZ(-35vw) rotateY(-360deg); }
+} */
 
 /* CONTENT */
 #subBody {
@@ -183,7 +236,7 @@ body {
 #lM {
     display: none;
 }
-.portada{
+.projectsContent{
     padding: 3%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

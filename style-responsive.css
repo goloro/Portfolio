@@ -51,7 +51,7 @@
     #lM {
         display: flex;
     }
-    .portada {
+    .projectsContent {
         grid-template-columns: 1fr;
         margin: 0;
         width: 100%;
