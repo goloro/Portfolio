@@ -155,6 +155,9 @@ body {
 
 
 /* CONTENT */
+#subBody {
+    display: none;
+}
 .filtro {
     filter: blur(10px);
 }

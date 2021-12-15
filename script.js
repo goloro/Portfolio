@@ -30,4 +30,5 @@ document.querySelector(".itemRes").addEventListener("click", function() {
 
 setTimeout(function() {
     document.getElementById("inicio").style.display = "none"
+    document.getElementById("subBody").style.display = "flex"
 }, 3000)
