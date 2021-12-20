@@ -305,11 +305,11 @@ body {
 }
 #skills {
     margin-top: 7%;
+    margin-bottom: 5%;
 }
 .skills {
     display: flex;
     width: 80%;
-    margin-bottom: 5%;
 }
 .SkillsContent {
     display: grid;

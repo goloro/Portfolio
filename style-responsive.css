@@ -1,6 +1,39 @@
 /* PC GRANDE */
-@media screen and (max-width: 2000px) and (min-width: 1500px) {
-    
+@media screen and (max-width: 3000px) and (min-width: 1500px) {
+    #tituloPortada, #tituloAboutMe, #tituloSkills {
+        width: 15%;
+    }
+    .lineaPortada {
+        width: 59%;
+    }
+    .projectsContent {
+        padding-top: 0%;
+    }
+    #skills {
+        margin-top: 1%;
+        margin-bottom: 7%;
+    }
+    .aboutMeContent {
+        padding-bottom: 5%;
+        margin: 4% auto 0% auto
+    }
+    .SkillsContent {
+        margin-top: 2.5%;
+    }
+    .SkillsContent img {
+        margin-bottom: 200px;
+    }
+    #skIMG {
+        margin-right: 650px;
+        margin-left: 10px;
+    }
+    .CV {
+        margin: auto 12% auto 0%;
+    }
+    #map {
+        width: 50%;
+        height: 600px;
+    }
 }
 
 /* PC PORTATIL */
