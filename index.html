@@ -18,200 +18,164 @@
         <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap" rel="stylesheet">
+    
+        <link href="https://fonts.googleapis.com/css2?family=Saira&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+
     </head>
     <body>
-        <!-- MENU RESPONSIVE -->
-        <div class="menuResponsive">
-            <img id="LogoPersRedRes" src="Images/LogoPersRedondo.png" width="40" height="40">
-            <p id="nombreRes">Gonzalo López</p>
-            <img id="BarraMenuRes"src="Images/menu.svg" width="35" height="35">
-        </div>
-        <div class="subMenuRes" id="subMenuRes">
-            <a class="itemRes" id="projectRes" id="projectsRes" href="#projects">
-                <p>PROJECTS</p>
-            </a>
-            <a class="itemRes" id="skillsRes" href="#skills">
-                <p>SKILLS</p>
-            </a>
-            <a class="itemRes" id="aboutRes" href="#aboutMe">
-                <p>ABOUT ME</p>
-            </a>
-        </div>
+        <!-- Nav -->
+        <nav id="Nav">
+            <a href="#Nav" id="logoNav"><img id="logoNavImg" src="Images/logo_glr_blue.png" width="75" height="75"></a>
+            <p id="nombreNav">Gonzalo López Rodríguez</p>
+            <div class="menuNav">
+                <a class="aMenuNav" href="#Skills"><p>Skills</p></a>
+                <a class="aMenuNav" href="#Projects"><p>Projects</p></a>
+                <a class="aMenuNav" href="#Contact"><p>Contact</p></a>
+            </div>
+            <!-- menu responsive -->
+            <img id="barraMenuRes" src="Images/menu.svg" width="35" height="35">
+        </nav>
+            <!-- Sub Menu Responsive -->
+            <div class="subMenuRes" id="subMenuRes">
+                <a class="itemRes" id="projectRes" href="#Skills"><p>Skills</p></a>
+                <a class="itemRes" id="skillsRes" href="#Projects"><p>Projects</p></a>
+                <a class="itemRes" id="aboutRes" href="#Contact"><p>Contact</p></a>
+            </div>
 
-        <div class="subBody" id="subBody">
-            <!-- CONTENT -->
-            <div class="content">
-                <!-- BARRA LATERAL -->
-                <div class="barraLateral" id="barraLateral">
-                    <a id="LogoPersRed" href="index.html"><img src="Images/LogoPersRedondo.png" width="200" height="200"></a>
-                    <div class="nombre">
-                        <h1>GONZALO</h1>
-                        <h1>LÓPEZ</h1>
-                        <h4>Web Developer</h4>
-                    </div>
-                    <div class="redesBL">
-                        <a id="gitBL" href="https://github.com/goloro"><img src="Images/github_logo_black.png" width="30" height="30"></a>
-                        <a id="linkBL" href="https://www.linkedin.com/in/gonzalo-l%C3%B3pez-rodr%C3%ADguez-b919101ba/"><img src="Images/linkedin_logo_black.png" width="30" height="30"></a>
-                        <a id="emailBL"><img src="Images/email_logo_black.png" width="30" height="25"></a>
-                    </div>
-                    <hr id="lineaBL">
-                    <div class="menuBL">
-                        <a href="#projects">
-                            <div class="itemMenuBL">
-                                <img src="Images/folder_black.png" width="30" height="30">
-                                <p>PROJECTS</p>
-                            </div>
-                        </a>
-                        <a href="#skills">
-                            <div class="itemMenuBL">
-                                <img src="Images/skills.png" width="30" height="30">
-                                <p>SKILLS</p>
-                            </div>
-                        </a>
-                        <a href="#aboutMe">
-                            <div class="itemMenuBL">
-                                <img src="Images/aboutMe.svg" width="30" height="30">
-                                <p>ABOUT ME</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+        <!-- Portada -->
+        <div class="contentDiv" id="Portada">
+            <p id="portadaTitulo">Check my recent projects!</p>  
+            
+            <div class="itemsPortada">
+                <div class="items_contentPortada">
+                    <div class="itemPortada" id="item1Portada">
+                        <h3 id="tituloPortada">To Do List</h3>
+                        <a href="https://goloro.github.io/ToDoList/"><img src="Images/Webs/todolist.png"></a>
+                    </div> 
 
-                <!-- PORATADA -->
-                
-                <!-- <div class="portada" id="portada">
-                    <div class="portada-cards">
-                        <h1>United Motorsports</h1>
-                        <img src="Images/Webs/unitedMotorsports.png">
+                    <div class="itemPortada" id="item2Portada">
+                        <h3 id="tituloPortada">United Motorsports</h3>
+                        <a href="https://unitedmotorsports.herokuapp.com"><img src="Images/Webs/unitedMotorsports.png"></a>
                     </div>
-                    <div class="portada-cards">
-                        <h1>To Do List</h1>
-                        <img src="Images/Webs/todolist.png">
-                    </div>
-                    <div class="portada-cards">
-                        <h1>Api Consults</h1>
-                        <img src="Images/Webs/default.png">
-                    </div>
-                </div> -->
-
-                <!-- PROJECTS -->
-                <div id="projects">
-                    <div class="divTitulos">
-                        <hr class="lineaPortada" id="lM">
-                        <h1 id="tituloPortada">PROJECTS</h1>
-                        <hr class="lineaPortada">
-                    </div>
-                    <div class="projectsContent">
-                        <div class="item">
-                            <div class="cabeceraItem">
-                                <img src="Images/folder.png" width="30" height="30">
-                                <h3 id="Titulo">To Do List</h3>
-                                <a id="gitHub" href="https://github.com/goloro/ToDoList" target="blank"><img src="Images/github_logo_blue.png" width="25" height="25"></a>
-                            </div>
-                            <a id="aWebImage" href="https://goloro.github.io/ToDoList/"><img id="webImage" src="Images/Webs/todolist.png"></a>
-                            <div class="lenguajesItem">
-                                <p>JavaScript</p>
-                                <p>HTML</p>
-                                <p>CSS</p>
-                            </div>
-                        </div>
-    
-                        <div class="item">
-                            <div class="cabeceraItem">
-                                <img src="Images/folder.png" width="30" height="30">
-                                <h3 id="Titulo">United Motorsports</h3>
-                                <a id="gitHub" href="https://github.com/goloro/UnitedMotorsports" target="blank"><img src="Images/github_logo_blue.png" width="25" height="25"></a>
-                            </div>
-                            <a id="aWebImage" href="https://unitedmotorsports.herokuapp.com"><img id="webImage" src="Images/Webs/unitedMotorsports.png"></a>
-                            <div class="lenguajesItem">
-                                <p>JavaScript</p>
-                                <p>HTML</p>
-                                <p>CSS</p>
-                            </div>
-                        </div>
-    
-                        <div class="item">
-                            <div class="cabeceraItem">
-                                <img src="Images/folder.png" width="30" height="30">
-                                <h3 id="Titulo">API Calls</h3>
-                                <a id="gitHub" href="https://github.com/goloro/ApiConsults" target="blank"><img src="Images/github_logo_blue.png" width="25" height="25"></a>
-                            </div>
-                            <a id="aWebImage" href="https://goloro.github.io/ApiConsults/"><img id="webImage" src="Images/Webs/ApiConsults.png"></a>
-                            <div class="lenguajesItem">
-                                <p>JavaScript</p>
-                                <p>HTML</p>
-                                <p>CSS</p>
-                            </div>
-                        </div>
-    
-                        <div class="item">
-                            <div class="cabeceraItem">
-                                <img src="Images/folder.png" width="30" height="30">
-                                <h3 id="Titulo">Book Shop JPA</h3>
-                                <a id="gitHub" href="https://github.com/goloro/ApiConsults" target="blank"><img src="Images/github_logo_blue.png" width="25" height="25"></a>
-                            </div>
-                            <a id="aWebImage" href=""><img id="webImage" src="Images/Webs/ComingSoon.png"></a>
-                            <div class="lenguajesItem">
-                                <p>JPA</p>
-                                <p>JSLT</p>
-                                <p>MySQL</p>
-                                <p>Tomcat</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- SKILLS -->
-                <div id="skills">
-                    <div class="divTitulos">
-                        <hr class="lineaPortada" id="lM">
-                        <h1 id="tituloSkills">SKILLS</h1>
-                        <hr class="lineaPortada">
-                    </div>
-                    <div class="skills">
-                        <div class="SkillsContent">
-                            <img id="skIMG" src="Images/js_logo.png" width="150" height="150">
-                            <img id="skIMG" src="Images/html_logo.png" width="150" height="150">
-                            <img src="Images/css_logo.png" width="150" height="150">
-                            <img id="skIMG" src="Images/java_logo.png" width="150" height="150">
-                            <img id="skIMG" src="Images/git_logo.png" width="150" height="150">
-                            <img src="https://programacion22.files.wordpress.com/2019/05/1_gycg7f5bylur4ut_jaes7a-1.png" width="150" height="150">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ABOUT ME -->
-                <div id="aboutMe">
-                    <div class="divTitulos">
-                        <hr class="lineaPortada" id="lM">
-                        <h1 id="tituloAboutMe">ABOUT ME</h1>
-                        <hr class="lineaPortada">
-                    </div>
-                    <div class="aboutMe">
-                        <div class="aboutMeContent">
-                            <a class="CV" href="https://drive.google.com/file/d/1B03VaNKdqTuniFdkenSHLR2BsdQSr5Wh/view" target="blank">
-                                <div>
-                                    <img id="downloadIMG" src="Images/download.svg" width="70" height="60">
-                                    <p id="download">View my CV!</p>
-                                </div>
-                            </a>
-
-                            <div id="map">
-
-                            </div>
-                        </div>
+     
+                    <div class="itemPortada" id="item3Portada">
+                        <h3 id="tituloPortada">Api Calls</h3>
+                        <a href="https://goloro.github.io/ApiConsults/"><img src="Images/Webs/ApiConsults.png"></a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id="inicio" class="inicio">
-            <div>
-                <img src="Images/logo_glr_blue.png" width="300" height="300">
-                <div class="inicioTXT">
-                    <h1>GONZALO</h1>
-                    <h1>LÓPEZ</h1>
-                    <h4>Web Developer</h4>
+        <!-- Skills -->
+        <div class="contentDiv" id="Skills">
+            <div class ="titulo">
+              <hr class="linea" id="lder">
+              <p id="pTitulo">Skills</p>
+              <hr class="linea" id="lizq">  
+            </div>
+
+            <div class="contentSkills">
+                <img id="skill1" src="Images/js_logo.png" width="100" height="100">
+                <img id="skill2" src="Images/html_logo.png" width="100" height="100">
+                <img id="skill3" src="Images/css_logo.png" width="100" height="100">
+                <img id="skill4" src="Images/java_logo.png" width="100" height="100">
+                <img id="skill5" src="https://picodotdev.github.io/blog-bitix/assets/images/logotypes/spring.svg" width="100" height="100">
+                <img id="skill6" src="Images/git_logo.png" width="100" height="100">
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="contentDiv" id="Projects">
+            <div class ="titulo">
+                <hr class="linea" id="lder">
+                <p id="pTitulo">Projects</p>
+                <hr class="linea" id="lizq">  
+            </div>
+
+            <div class="projectsContent">
+                <div class="item">
+                    <div class="cabeceraItem">
+                        <h3 id="Titulo">To Do List</h3>
+                        <a id="gitHub" href="https://github.com/goloro/ToDoList" target="blank"><img src="Images/github_logo_blue.png" width="25" height="25"></a>
+                    </div>
+                    <img id="aWebImage" src="Images/Webs/todolist.png">
+                    <div class="lenguajesItem">
+                        <p>JavaScript</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                    </div>
+                </div>
+    
+                <div class="item" id="derItem">
+                    <div class="cabeceraItem">
+                        <h3 id="Titulo">United Motorsports</h3>
+                        <a id="gitHub" href="https://github.com/goloro/UnitedMotorsports" target="blank"><img src="Images/github_logo_blue.png" width="25" height="25"></a>
+                    </div>
+                    <img id="aWebImage" src="Images/Webs/unitedMotorsports.png">
+                    <div class="lenguajesItem">
+                        <p>JavaScript</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                    </div>
+                </div>
+    
+                <div class="item">
+                    <div class="cabeceraItem">
+                        <h3 id="Titulo">API Calls</h3>
+                        <a id="gitHub" href="https://github.com/goloro/ApiConsults" target="blank"><img src="Images/github_logo_blue.png" width="25" height="25"></a>
+                    </div>
+                    <img id="aWebImage" src="Images/Webs/ApiConsults.png">
+                    <div class="lenguajesItem">
+                        <p>JavaScript</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                    </div>
+                </div>
+    
+                <div class="item" id="derItem">
+                    <div class="cabeceraItem">
+                        <h3 id="Titulo">Book Shop JPA</h3>
+                        <a id="gitHub" href="https://github.com/goloro/ApiConsults" target="blank"><img src="Images/github_logo_blue.png" width="25" height="25"></a>
+                    </div>
+                    <img id="aWebImage" src="Images/Webs/ComingSoon.png">
+                    <div class="lenguajesItem">
+                        <p>JPA</p>
+                        <p>JSLT</p>
+                        <p>MySQL</p>
+                        <p>Tomcat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ContactMe -->
+        <div class="contentDiv" id="Contact">
+            <div class ="titulo">
+                <hr class="linea" id="lder">
+                <p id="pTitulo">Contact</p>
+                <hr class="linea" id="lizq">  
+            </div>
+
+            <div class="contactContent">
+                <div class ="redesContact">
+                    <div class="redContact" id="redPrin">
+                        <img src="Images/github_logo_blue.png" width="60" height="60">
+                        <a id="linkContact" href="https://github.com/goloro" target="blank">goloro</a>
+                    </div>
+
+                    <div class="redContact" id="redPrin">
+                        <img src="Images/linkedin_logo_blue.png" width="60" height="60">
+                        <a id="linkContact" href="https://www.linkedin.com/in/gonzalo-lópez-rodríguez-b919101ba/" target="blank">Gonzalo López Rodríguez</a>
+                    </div>
+
+                    <div class="redContact">
+                        <img id="downloadIMG" src="Images/download.svg" width="60" height="60">
+                        <a id="linkContact" href="https://drive.google.com/file/d/1aDZOoU_URs02jixxNS3W0yDWo3PNWJgR/view" target="blank">View my CV!</a>
+                    </div>
+                </div>
+                <div class="mapaContact" id="map">
+
                 </div>
             </div>
         </div>
