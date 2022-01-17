@@ -184,11 +184,11 @@ nav {
     margin-left: 1.25%;
 }
 #item1Portada {
-    background-color: rgb(73, 70, 241);
+    background-color: #e73636;
     transform: rotateY(0deg) translateZ(35vw)
 }
 #item2Portada {
-    background-color: #e73636;
+    background-color: rgb(73, 70, 241);
     transform: rotateY(120deg) translateZ(35vw)
 }
 #item3Portada {
