@@ -37,7 +37,7 @@
     .contentSkills img {width: 75px; height: 75%;}
     #skill3, #skill6 {margin-left: 0;}
     #skill2, #skill5 {margin: 0;}
-    #skill2, #skill4, #skill6 { margin-left: auto;}
+    #skill2, #skill4, #skill6, #skill8 { margin-left: auto;}
 
     /* PROJECTS */
     .projectsContent {
