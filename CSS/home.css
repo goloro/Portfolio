@@ -141,7 +141,7 @@ body {
 }
 
 .MCTB-Button:first-child {
-    background-color: #12345bc0;
+    background-color: #12345b88;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -264,9 +264,8 @@ body {
 .project-card {
     background: #0B1E33;
     border-radius: 20px;
-    min-width: 300px;
-    max-width: 3000px;
-    height: 150px;
+    min-width: 200px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -281,8 +280,8 @@ body {
 }
 
 .project-image {
-    width: 300px;
-    height: 150px;
+    width: 200px;
+    height: 100px;
 }
 
 @keyframes scroll {
