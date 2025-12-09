@@ -1,0 +1,80 @@
+.navBar {
+    display: flex;
+    height: 8vh;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+#navBarLogo {
+    height: 60%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.navBarMenu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 3rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navBarMenu p {
+    font-size: large;
+    cursor: pointer;
+    margin: 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.navBarMenu p:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+    backdrop-filter: blur(5px);
+}
+
+.navBarSocialMedia {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 1rem;
+    z-index: 10;
+}
+
+.navBarSocialMedia a {
+    height: 40%;
+    cursor: pointer;
+}
+
+.navBarSocialMedia_Image {
+    height: 100%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.navBarSocialMedia img:hover {
+    animation: shake 0.25s ease-in-out both;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-5deg);
+    }
+
+    75% {
+        transform: rotate(5deg);
+    }
+}
