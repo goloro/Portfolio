@@ -8,35 +8,295 @@ body {
     font-family: "Space Grotesk", sans-serif;
     color: #FFFFFF;
 }
-    .navBar {
-        display: flex;
-        height: 8vh;
+
+.navBar {
+    display: flex;
+    height: 8vh;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+#navBarLogo {
+    height: 60%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.navBarMenu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 3rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navBarMenu p {
+    font-size: large;
+    cursor: pointer;
+    margin: 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.navBarMenu p:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+    backdrop-filter: blur(5px);
+}
+
+.navBarSocialMedia {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 1rem;
+    z-index: 10;
+}
+
+.navBarSocialMedia img {
+    height: 40%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.navBarSocialMedia img:hover {
+    animation: shake 0.25s ease-in-out both;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
     }
-        #navBarLogo {
-            height: 60%;
-            margin: auto auto auto 1%;
-            cursor: pointer;
-        }
-        .navBarMenu {
-            display: flex;
-            height: 100%;
-            align-items: center;
-            gap: 50%;
-            margin: auto;
-        }
-            .navBarMenu p {
-                font-size: large;
-                cursor: pointer;
-            }
-        .navBarSocialMedia {
-            display: flex;
-            height: 100%;
-            width: 10%;
-            align-items: center;
-            margin: auto 1% auto auto;
-        }
-            .navBarSocialMedia img {
-                margin: auto;
-                height: 40%;
-                cursor: pointer;
-            }
+
+    25% {
+        transform: rotate(-5deg);
+    }
+
+    75% {
+        transform: rotate(5deg);
+    }
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    height: 92vh;
+    padding: 0 5%;
+}
+
+.hero-section {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mainContentText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    z-index: 10;
+    max-width: 50%;
+}
+
+.mainContentText h1 {
+    font-size: 5vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+.mainContentText p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-bottom: 3rem;
+}
+
+.mainContentTextButtons {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.MCTB-Button {
+    padding: 12px 32px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.MCTB-Button:first-child {
+    background-color: #12345bc0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.MCTB-Button:last-child {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.MCTB-Button:first-child:hover {
+    background-color: #12345b;
+    transform: translateY(-2px);
+}
+
+.MCTB-Button:last-child:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.MCTB-Button p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Code Card Styles */
+.hero-visual {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.code-card {
+    background: rgba(11, 30, 51, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    overflow: hidden;
+    transform: perspective(1000px) rotateY(-5deg) rotateX(5deg);
+    transition: transform 0.3s ease;
+}
+
+.code-card:hover {
+    transform: perspective(1000px) rotateY(0) rotateX(0);
+}
+
+.code-header {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    display: flex;
+    gap: 8px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #FF5F56;
+}
+
+.yellow {
+    background-color: #FFBD2E;
+}
+
+.green {
+    background-color: #27C93F;
+}
+
+.code-content {
+    padding: 24px;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    cursor: default;
+}
+
+.keyword {
+    color: #C678DD;
+}
+
+.variable {
+    color: #E06C75;
+}
+
+.property {
+    color: #61AFEF;
+}
+
+.string {
+    color: #98C379;
+}
+
+.boolean {
+    color: #D19A66;
+}
+
+/* Carousel Styles */
+.mainContentProjectsPreview {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 2rem 0;
+    margin-top: auto;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.carousel-track {
+    display: flex;
+    gap: 2rem;
+    width: max-content;
+    animation: scroll 20s linear infinite;
+}
+
+.project-card {
+    background: #0B1E33;
+    border-radius: 20px;
+    min-width: 300px;
+    max-width: 3000px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.project-image {
+    width: 300px;
+    height: 150px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-300px * 4 - 2rem * 4));
+        /* Adjust based on card width + gap */
+    }
+}
+
+/* Hover to pause */
+.carousel-track:hover {
+    animation-play-state: paused;
+}

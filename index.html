@@ -1,33 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Gonzalo López Rodríguez - Portfolio</title>
 
-        <link rel="shortcut icon" href="Images/G-GoloroLogo.png" type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gonzalo López Rodríguez - Portfolio</title>
 
-        <link rel="stylesheet" href="CSS/home.css">
+    <link rel="shortcut icon" href="Images/G-GoloroLogo.png" type="image/x-icon">
 
-        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="navBar">
-            <img id="navBarLogo" src="Images/G(Blanco)-GoloroLogo.png" alt="Goloro White Logo">
-            <div class="navBarMenu">
-                <p>About</p>
-                <p>Projects</p>
-                <p>Contact</p>
+    <link rel="stylesheet" href="CSS/home.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navBar">
+        <img id="navBarLogo" src="Images/G(Blanco)-GoloroLogo.png" alt="Goloro White Logo">
+        <div class="navBarMenu">
+            <p>About</p>
+            <p>Projects</p>
+            <p>Contact</p>
+        </div>
+        <div class="navBarSocialMedia">
+            <img id="navBarLinkedInLogo" src="Images/linkedInLogo(White).png" alt="LinkedIn Logo">
+            <img id="navBarGitHubLogo" src="Images/githubLogo(White).png" alt="GitHub Logo">
+            <img id="navBarCVLogo" src="Images/cvLogo(White).png" alt="CV Logo">
+        </div>
+    </div>
+
+    <div class="mainContent">
+        <div class="hero-section">
+            <div class="mainContentText">
+                <h1>Gonzalo López Rodríguez</h1>
+                <p>Full Stack Web Developer & Graduated at Information Systems</p>
+                <div class="mainContentTextButtons">
+                    <div class="MCTB-Button" id="MCTB-Button-ViewMyWork">
+                        <p>View my Work</p>
+                    </div>
+                    <div class="MCTB-Button">
+                        <p>Get in Touch</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.5" d="M4.5 12h15m0 0l-5.625-6m5.625 6l-5.625 6" />
+                        </svg>
+                    </div>
+                </div>
             </div>
-            <div class="navBarSocialMedia">
-                <img id="navBarLinkedInLogo" src="Images/linkedInLogo(White).png" alt="LinkedIn Logo">
-                <img id="navBarGitHubLogo" src="Images/githubLogo(White).png" alt="GitHub Logo">
-                <img id="navBarCVLogo" src="Images/cvLogo(White).png" alt="CV Logo">
+
+            <div class="hero-visual">
+                <div class="code-card">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="code-content">
+                        <pre>
+    <span class="keyword">const</span> <span class="variable">developer</span> = {
+        <span class="property">name</span>: <span class="string">"Gonzalo López Rodríguez"</span>,
+        <span class="property">role</span>: <span class="string">"Full Stack Dev"</span>,
+        <span class="property">skills</span>: [
+            <span class="string">"JavaScript"</span>,
+            <span class="string">"React"</span>,
+            <span class="string">"Node.js"</span>
+        ],
+        <span class="property">hardWorker</span>: <span class="boolean">true</span>
+    };
+                        </pre>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="mainContentProjectsPreview">
 
-        <div class="mainContent">
-            
+            <div class="carousel-track">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="Images/ToDoAppCompleto.png" alt="Project Image" class="project-image">
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="Images/ToDoAppCompleto.png" alt="Project Image" class="project-image">
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="Images/ToDoAppCompleto.png" alt="Project Image" class="project-image">
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <img src="Images/ToDoAppCompleto.png" alt="Project Image" class="project-image">
+                </div>
+                <!-- Duplicate for infinite scroll -->
+                <div class="project-card">
+                    <img src="Images/ToDoAppCompleto.png" alt="Project Image" class="project-image">
+                </div>
+                <div class="project-card">
+                    <img src="Images/ToDoAppCompleto.png" alt="Project Image" class="project-image">
+                </div>
+                <div class="project-card">
+                    <img src="Images/ToDoAppCompleto.png" alt="Project Image" class="project-image">
+                </div>
+                <div class="project-card">
+                    <img src="Images/ToDoAppCompleto.png" alt="Project Image" class="project-image">
+                </div>
+            </div>
         </div>
-    </body>
+</body>
+
 </html>
