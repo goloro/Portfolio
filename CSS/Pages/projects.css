@@ -11,3 +11,10 @@ body {
 .navBar {
     background: linear-gradient(135deg, #12345B 0%, #2A7AD5 100%);
 }
+
+#navBarProjects {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+    backdrop-filter: blur(5px);
+}
