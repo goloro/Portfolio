@@ -42,6 +42,38 @@
         </div>
     </div>
 
+    <main class="mainContent">
+        <p class="page-title">Contact Me</p>
+
+        <div class="contact-container">
+            <!-- 
+                GOOGLE FORM INTEGRATION INSTRUCTIONS:
+                1. Create a Google Form with Name, Email, and Message fields.
+                2. Get the "pre-filled link" to find the entry IDs (e.g., entry.123456).
+                3. Replace 'YOUR_GOOGLE_FORM_ACTION_URL' with the form action URL (ends in /formResponse).
+                4. Replace 'ENTRY_ID_NAME', 'ENTRY_ID_EMAIL', 'ENTRY_ID_MESSAGE' with your actual entry IDs.
+            -->
+            <form action="https://formsubmit.co/goloro02@gmail.com" method="POST" target="_blank" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="Email" placeholder="Your Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="Message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+
     <footer class="footer">
         <p>&copy; 2025 Gonzalo López Rodríguez. All rights reserved.</p>
     </footer>
