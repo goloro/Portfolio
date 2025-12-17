@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "description": "A personal portfolio website to showcase my skills and projects.",
+    "background": "linear-gradient(135deg, #12345B, #2A7AD5)",
+    "links": [
+      {
+        "text": "View Code",
+        "url": "#"
+      },
+      {
+        "text": "Live Demo",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Task Manager App",
+    "description": "A productivity app to organize tasks and improve efficiency.",
+    "background": "linear-gradient(to right, #000428, #004e92)",
+    "links": [
+      {
+        "text": "View Code",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Weather Dashboard",
+    "description": "Real-time weather updates using a third-party API.",
+    "background": "linear-gradient(to right, #243B55, #141E30)",
+    "links": [
+      {
+        "text": "View Code",
+        "url": "#"
+      },
+      {
+        "text": "Live Demo",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Chat Application",
+    "description": "A real-time messaging app with WebSocket integration.",
+    "background": "linear-gradient(to top, #1e3c72 0%, #2a5298 100%)",
+    "links": [
+      {
+        "text": "View Code",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "E-Commerce Platform",
+    "description": "A fully functional online store with cart, checkout, and payment integration.",
+    "background": "linear-gradient(135deg, #12345B, #2A7AD5)",
+    "links": [
+      {
+        "text": "View Code",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Blog Engine",
+    "description": "A custom CMS for creating and managing blog posts.",
+    "background": "linear-gradient(to right, #4b6cb7, #182848)",
+    "links": [
+      {
+        "text": "View Code",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Social Media Dashboard",
+    "description": "Analytics dashboard for tracking social media performance.",
+    "background": "linear-gradient(to right, #000428, #004e92)",
+    "links": [
+      {
+        "text": "View Code",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Script Collection",
+    "description": "Useful automation scripts for daily tasks.",
+    "background": "linear-gradient(to right, #000428, #004e92)",
+    "links": []
+  },
+  {
+    "id": 9,
+    "title": "Config Files",
+    "description": "My personal dotfiles and configuration setups.",
+    "background": "linear-gradient(to right, #243B55, #141E30)",
+    "links": []
+  },
+  {
+    "id": 10,
+    "title": "Learning Resources",
+    "description": "A curated list of resources for learning web development.",
+    "background": "linear-gradient(to top, #1e3c72 0%, #2a5298 100%)",
+    "links": []
+  },
+  {
+    "id": 11,
+    "title": "Notes App",
+    "description": "Keep your thoughts organized.",
+    "background": "linear-gradient(to right, #243B55, #141E30)",
+    "links": []
+  },
+  {
+    "id": 12,
+    "title": "Fitness Tracker",
+    "description": "Track your workouts and progress over time.",
+    "background": "linear-gradient(to top, #1e3c72 0%, #2a5298 100%)",
+    "links": []
+  },
+  {
+    "id": 13,
+    "title": "Music Player",
+    "description": "Listen to your favorite tunes.",
+    "background": "linear-gradient(to right, #4b6cb7, #182848)",
+    "links": []
+  },
+  {
+    "id": 14,
+    "title": "Recipe Finder",
+    "description": "Find delicious recipes based on ingredients you have.",
+    "background": "linear-gradient(135deg, #12345B, #2A7AD5)",
+    "links": []
+  }
+]
