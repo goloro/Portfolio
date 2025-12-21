@@ -6,7 +6,7 @@
         "role": "FP Web Development",
         "company": "Innovación en Formación Profesional (IFP)",
         "description": "Started my journey in web development, learning the fundamentals of frontend and backend technologies.",
-        "logo": "../Images/G(Blanco)-GoloroLogo.png",
+        "logo": "../Images/IFPLogo.png",
         "side": "left"
     },
     {
@@ -16,17 +16,17 @@
         "role": "Backend Developer Intern",
         "company": "Webel",
         "description": "Completed my internship as a Backend Developer, gaining practical experience in a professional environment.",
-        "logo": null,
+        "logo": "../Images/WebelLogo.png",
         "side": "right"
     },
     {
         "id": 3,
-        "date": "Sept 2022 - June 2026 (Expected)",
+        "date": "Sept 2022 - June 2026",
         "type": "Studies",
-        "role": "Degree in Information Systems",
+        "role": "Sistemas de Información Degree",
         "company": "Universidad Politécnica de Madrid (UPM)",
         "description": "Currently pursuing a degree to deepen my understanding of information systems and computer science.",
-        "logo": "../Images/G(Blanco)-GoloroLogo.png",
+        "logo": "../Images/UPMLogo.png",
         "side": "left"
     },
     {
@@ -36,7 +36,7 @@
         "role": "AI Trainer (Freelance)",
         "company": "Outlier",
         "description": "Training AI models verifying and validating the correct behavior of the models.",
-        "logo": "../Images/G(Blanco)-GoloroLogo.png",
+        "logo": "../Images/OutlierLogo.png",
         "side": "right"
     }
 ]
