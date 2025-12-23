@@ -4,6 +4,7 @@
     "title": "Portfolio Website",
     "description": "A personal portfolio website to showcase my skills and projects.",
     "image": null,
+    "featured": true,
     "background": "linear-gradient(135deg, #12345B, #2A7AD5)",
     "links": [
       {
@@ -21,6 +22,7 @@
     "title": "ToDoApp",
     "description": "A productivity app to organize tasks and improve efficiency.",
     "image": "../Images/Proyects/ToDoAppCompleto.png",
+    "featured": true,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -42,6 +44,7 @@
     "title": "Means",
     "description": null,
     "image": "../Images/Proyects/MeansCompleto.png",
+    "featured": true,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -59,6 +62,7 @@
     "title": "GoloPop",
     "description": null,
     "image": "../Images/Proyects/GoloPopCompleto.png",
+    "featured": true,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -76,6 +80,7 @@
     "title": "Book-Shop-JPA",
     "description": null,
     "image": null,
+    "featured": false,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -89,6 +94,7 @@
     "title": "UnitedMotorsports",
     "description": null,
     "image": "../Images/Proyects/UnitedMotorsportsCompleto.png",
+    "featured": false,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -102,6 +108,7 @@
     "title": "ApiConsults",
     "description": null,
     "image": "../Images/Proyects/ApiConsults.png",
+    "featured": false,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -119,6 +126,7 @@
     "title": "ToDoList",
     "description": null,
     "image": "../Images/Proyects/ToDoList.png",
+    "featured": false,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
