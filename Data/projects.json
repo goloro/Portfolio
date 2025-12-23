@@ -23,7 +23,7 @@
     "description": "A productivity app to organize tasks and improve efficiency.",
     "image": "../Images/Proyects/ToDoAppCompleto.png",
     "featured": true,
-    "background": "linear-gradient(to right, #000428, #004e92)",
+    "background": "linear-gradient(135deg, #3a7bd5, #3a6073)",
     "links": [
       {
         "text": "Live Demo",
@@ -45,7 +45,7 @@
     "description": null,
     "image": "../Images/Proyects/MeansCompleto.png",
     "featured": false,
-    "background": "linear-gradient(to right, #000428, #004e92)",
+    "background": "linear-gradient(135deg, #0052D4, #4364F7)",
     "links": [
       {
         "text": "Github (FrontEnd)",
@@ -63,7 +63,7 @@
     "description": null,
     "image": "../Images/Proyects/GoloPopCompleto.png",
     "featured": false,
-    "background": "linear-gradient(to right, #000428, #004e92)",
+    "background": "linear-gradient(135deg, #1A2980, #26D0CE)",
     "links": [
       {
         "text": "Github (FrontEnd)",
@@ -81,7 +81,7 @@
     "description": null,
     "image": null,
     "featured": false,
-    "background": "linear-gradient(to right, #000428, #004e92)",
+    "background": "linear-gradient(135deg, #00c6ff, #0072ff)",
     "links": [
       {
         "text": "Github",
@@ -95,7 +95,7 @@
     "description": null,
     "image": "../Images/Proyects/UnitedMotorsportsCompleto.png",
     "featured": false,
-    "background": "linear-gradient(to right, #000428, #004e92)",
+    "background": "linear-gradient(135deg, #4b6cb7, #182848)",
     "links": [
       {
         "text": "Github",
@@ -109,7 +109,7 @@
     "description": null,
     "image": "../Images/Proyects/ApiConsults.png",
     "featured": false,
-    "background": "linear-gradient(to right, #000428, #004e92)",
+    "background": "linear-gradient(135deg, #000428, #004e92)",
     "links": [
       {
         "text": "Live Demo",
@@ -127,7 +127,7 @@
     "description": null,
     "image": "../Images/Proyects/ToDoList.png",
     "featured": false,
-    "background": "linear-gradient(to right, #000428, #004e92)",
+    "background": "linear-gradient(135deg, #1e3c72, #2a5298)",
     "links": [
       {
         "text": "Live Demo",
