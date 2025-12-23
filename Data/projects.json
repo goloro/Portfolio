@@ -20,7 +20,7 @@
     "id": 2,
     "title": "ToDoApp",
     "description": "A productivity app to organize tasks and improve efficiency.",
-    "image": null,
+    "image": "../Images/Proyects/ToDoAppCompleto.png",
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -41,7 +41,7 @@
     "id": 3,
     "title": "Means",
     "description": null,
-    "image": null,
+    "image": "../Images/Proyects/MeansCompleto.png",
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -58,7 +58,7 @@
     "id": 4,
     "title": "GoloPop",
     "description": null,
-    "image": null,
+    "image": "../Images/Proyects/GoloPopCompleto.png",
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -86,9 +86,22 @@
   },
   {
     "id": 6,
+    "title": "UnitedMotorsports",
+    "description": null,
+    "image": "../Images/Proyects/UnitedMotorsportsCompleto.png",
+    "background": "linear-gradient(to right, #000428, #004e92)",
+    "links": [
+      {
+        "text": "Github",
+        "url": "https://github.com/goloro/UnitedMotorsports"
+      }
+    ]
+  },
+  {
+    "id": 7,
     "title": "ApiConsults",
     "description": null,
-    "image": null,
+    "image": "../Images/Proyects/ApiConsults.png",
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -102,23 +115,10 @@
     ]
   },
   {
-    "id": 7,
-    "title": "UnitedMotorsports",
-    "description": null,
-    "image": null,
-    "background": "linear-gradient(to right, #000428, #004e92)",
-    "links": [
-      {
-        "text": "Github",
-        "url": "https://github.com/goloro/UnitedMotorsports"
-      }
-    ]
-  },
-  {
     "id": 8,
     "title": "ToDoList",
     "description": null,
-    "image": null,
+    "image": "../Images/Proyects/ToDoList.png",
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
