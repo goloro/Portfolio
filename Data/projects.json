@@ -3,6 +3,7 @@
     "id": 1,
     "title": "Portfolio Website",
     "description": "A personal portfolio website to showcase my skills and projects.",
+    "image": null,
     "background": "linear-gradient(135deg, #12345B, #2A7AD5)",
     "links": [
       {
@@ -19,6 +20,7 @@
     "id": 2,
     "title": "ToDoApp",
     "description": "A productivity app to organize tasks and improve efficiency.",
+    "image": null,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -39,6 +41,7 @@
     "id": 3,
     "title": "Means",
     "description": null,
+    "image": null,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -55,6 +58,7 @@
     "id": 4,
     "title": "GoloPop",
     "description": null,
+    "image": null,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -71,6 +75,7 @@
     "id": 5,
     "title": "Book-Shop-JPA",
     "description": null,
+    "image": null,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -83,6 +88,7 @@
     "id": 6,
     "title": "ApiConsults",
     "description": null,
+    "image": null,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -99,6 +105,7 @@
     "id": 7,
     "title": "UnitedMotorsports",
     "description": null,
+    "image": null,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -111,6 +118,7 @@
     "id": 8,
     "title": "ToDoList",
     "description": null,
+    "image": null,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
