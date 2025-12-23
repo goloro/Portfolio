@@ -35,11 +35,64 @@ async function loadCarousel() {
         img.alt = project.title;
         img.className = "project-image";
 
+        // Click Logic specifically for Live Demo
+        const liveDemoLink = project.links.find(link => link.text === "Live Demo");
+        if (liveDemoLink && liveDemoLink.url) {
+            card.addEventListener("click", () => {
+                window.open(liveDemoLink.url, "_blank");
+            });
+        }
+
         card.appendChild(img);
         return card;
     };
 
     // Append Original Set
+    featuredProjects.forEach(project => {
+        carouselTrack.appendChild(createCard(project));
+    });
+
+    // Append Duplicate Set (for infinite scroll effect)
+    featuredProjects.forEach(project => {
+        carouselTrack.appendChild(createCard(project));
+    });
+
+    // Append Duplicate Set (for infinite scroll effect)
+    featuredProjects.forEach(project => {
+        carouselTrack.appendChild(createCard(project));
+    });
+
+    // Append Duplicate Set (for infinite scroll effect)
+    featuredProjects.forEach(project => {
+        carouselTrack.appendChild(createCard(project));
+    });
+
+    // Append Duplicate Set (for infinite scroll effect)
+    featuredProjects.forEach(project => {
+        carouselTrack.appendChild(createCard(project));
+    });
+
+    // Append Duplicate Set (for infinite scroll effect)
+    featuredProjects.forEach(project => {
+        carouselTrack.appendChild(createCard(project));
+    });
+
+    // Append Duplicate Set (for infinite scroll effect)
+    featuredProjects.forEach(project => {
+        carouselTrack.appendChild(createCard(project));
+    });
+
+    // Append Duplicate Set (for infinite scroll effect)
+    featuredProjects.forEach(project => {
+        carouselTrack.appendChild(createCard(project));
+    });
+
+    // Append Duplicate Set (for infinite scroll effect)
+    featuredProjects.forEach(project => {
+        carouselTrack.appendChild(createCard(project));
+    });
+
+    // Append Duplicate Set (for infinite scroll effect)
     featuredProjects.forEach(project => {
         carouselTrack.appendChild(createCard(project));
     });
