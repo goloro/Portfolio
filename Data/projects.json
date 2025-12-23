@@ -4,7 +4,7 @@
     "title": "Portfolio Website",
     "description": "A personal portfolio website to showcase my skills and projects.",
     "image": null,
-    "featured": true,
+    "featured": false,
     "background": "linear-gradient(135deg, #12345B, #2A7AD5)",
     "links": [
       {
@@ -44,7 +44,7 @@
     "title": "Means",
     "description": null,
     "image": "../Images/Proyects/MeansCompleto.png",
-    "featured": true,
+    "featured": false,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
@@ -62,7 +62,7 @@
     "title": "GoloPop",
     "description": null,
     "image": "../Images/Proyects/GoloPopCompleto.png",
-    "featured": true,
+    "featured": false,
     "background": "linear-gradient(to right, #000428, #004e92)",
     "links": [
       {
