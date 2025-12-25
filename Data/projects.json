@@ -59,24 +59,6 @@
   },
   {
     "id": 4,
-    "title": "GoloPop",
-    "description": null,
-    "image": "../Images/Proyects/GoloPopCompleto.png",
-    "featured": false,
-    "background": "linear-gradient(135deg, #1A2980, #26D0CE)",
-    "links": [
-      {
-        "text": "Github (FrontEnd)",
-        "url": "https://github.com/goloro/Frontend-GoloPop"
-      },
-      {
-        "text": "Github (BackEnd)",
-        "url": "https://github.com/goloro/Backend-GoloPop"
-      }
-    ]
-  },
-  {
-    "id": 5,
     "title": "Book-Shop-JPA",
     "description": null,
     "image": null,
@@ -90,7 +72,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "UnitedMotorsports",
     "description": null,
     "image": "../Images/Proyects/UnitedMotorsportsCompleto.png",
@@ -104,7 +86,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 6,
     "title": "ApiConsults",
     "description": null,
     "image": "../Images/Proyects/ApiConsults.png",
@@ -122,7 +104,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "ToDoList",
     "description": null,
     "image": "../Images/Proyects/ToDoList.png",
