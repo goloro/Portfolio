@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Gonzalo López Rodríguez</title>
+
+    <link rel="shortcut icon" href="../Images/G(Blanco)-GoloroLogo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../CSS/Pages/contact.css">
+    <link rel="stylesheet" href="../CSS/navBar.css">
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/Responsive/navBar.responsive.css">
+    <link rel="stylesheet" href="../CSS/Responsive/Pages/contact.responsive.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navBar">
+        <img id="navBarLogo" src="../Images/goloro_logo.svg" alt="Goloro White Logo">
+        <div class="navBarMenu">
+            <p id="navBarAbout" class="navBarMenu_P">About</p>
+            <p id="navBarProjects" class="navBarMenu_P">Projects</p>
+            <p id="navBarContact" class="navBarMenu_P">Contact</p>
+        </div>
+        <div class="navBarSocialMedia">
+            <a href="https://linkedin.com/in/gonzalo-lópez-rodríguez-b919101ba">
+                <img class="navBarSocialMedia_Image" id="navBarLinkedInLogo" src="../Images/linkedInLogo(White).png"
+                    alt="LinkedIn Logo">
+            </a>
+            <a href="https://github.com/goloro">
+                <img class="navBarSocialMedia_Image" id="navBarGitHubLogo" src="../Images/githubLogo(White).png"
+                    alt="GitHub Logo">
+            </a>
+            <a href="https://drive.google.com/file/d/123RBxI9oLEceCZcG7DbtWLiQBfkE-9c3/view?usp=sharing">
+                <img class="navBarSocialMedia_Image" id="navBarCVLogo" src="../Images/cvLogo(White).png" alt="CV Logo">
+            </a>
+        </div>
+    </div>
+
+    <main class="mainContent">
+        <p class="page-title">Contact Me</p>
+
+        <div class="contact-container">
+            <form action="https://formsubmit.co/goloro02@gmail.com" method="POST" target="_blank" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="Email" placeholder="Your Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="Message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Gonzalo López Rodríguez. All rights reserved.</p>
+    </footer>
+
+    <script src="../JS/navBar.js"></script>
+</body>
+
+</html>

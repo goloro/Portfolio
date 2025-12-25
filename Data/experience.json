@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "date": "Nov 2024 - Present",
+        "type": "Work",
+        "role": "AI Trainer (Freelance)",
+        "company": "Outlier",
+        "description": "Training AI models verifying and validating the correct behavior of the models.",
+        "logo": "../Images/OutlierLogo.png",
+        "side": "right"
+    },
+    {
+        "id": 2,
+        "date": "Sept 2022 - June 2026",
+        "type": "Studies",
+        "role": "Sistemas de Información Degree",
+        "company": "Universidad Politécnica de Madrid (UPM)",
+        "description": "Currently pursuing a degree to deepen my understanding of information systems and computer science.",
+        "logo": "../Images/UPMLogo.png",
+        "side": "left"
+    },
+    {
+        "id": 3,
+        "date": "March 2022 - June 2022",
+        "type": "Work",
+        "role": "Backend Developer Intern",
+        "company": "Webel",
+        "description": "Completed my internship as a Backend Developer, gaining practical experience in a professional environment.",
+        "logo": "../Images/WebelLogo.png",
+        "side": "right"
+    },
+    {
+        "id": 4,
+        "date": "Sept 2020 - June 2022",
+        "type": "Studies",
+        "role": "FP Web Development",
+        "company": "Innovación en Formación Profesional (IFP)",
+        "description": "Started my journey in web development, learning the fundamentals of frontend and backend technologies.",
+        "logo": "../Images/IFPLogo.png",
+        "side": "left"
+    }
+]

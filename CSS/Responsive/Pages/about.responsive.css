@@ -1,0 +1,92 @@
+/* Responsive Styles for About Page */
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+    .page-title {
+        margin-bottom: 3rem;
+    }
+
+    .timeline {
+        max-width: 90%;
+        margin-bottom: 4rem;
+    }
+
+    .timeline-item {
+        width: 55%;
+        /* Reduce width slightly to fit closer */
+        padding: 10px 15px;
+    }
+
+    .timeline-content {
+        padding: 15px 20px 15px 20px;
+        padding-right: 50px;
+        /* Space for logo */
+    }
+
+    .skills-grid {
+        gap: 1.5rem;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+
+    /* Place the timeline line to the left */
+    .timeline::after {
+        left: 20px;
+        /* Line position */
+        margin-left: 0;
+    }
+
+    /* All items (left and right) align to the right of the line */
+    .timeline-item {
+        width: 100%;
+        padding-left: 60px;
+        /* Space for line and icon */
+        padding-right: 15px;
+        left: 0;
+    }
+
+    /* Reset left/right specific positioning */
+    .timeline-item.left,
+    .timeline-item.right {
+        left: 0;
+    }
+
+    /* Icons position */
+    .timeline-item .timeline-icon,
+    .timeline-item.right .timeline-icon {
+        width: 30px;
+        height: 30px;
+        left: 3px;
+        /* Centered on 20px line. line-center(21) - icon-center(18) = 3px */
+        right: auto;
+        top: 15px;
+    }
+
+    /* Content Box adjustments */
+    .timeline-content {
+        padding: 15px;
+        /* Reduced padding for mobile */
+        padding-right: 50px;
+        /* Space for internal logo */
+    }
+
+    .timeline-logo {
+        height: 25px;
+        top: 15px;
+        right: 15px;
+    }
+
+
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 colums on mobile */
+        gap: 1rem;
+    }
+}

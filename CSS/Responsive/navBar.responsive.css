@@ -1,0 +1,100 @@
+/* Responsive Styles for NavBar */
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+    .navBar {
+        padding: 0 5%;
+    }
+
+    .navBarMenu {
+        gap: 2rem;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .navBar {
+        height: 70px;
+        flex-direction: row;
+        padding: 0 5%;
+        gap: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #navBarLogo {
+        height: 30px;
+        width: auto;
+        margin: 0;
+        display: block;
+        align-self: center;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .navBarMenu {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: rgba(4, 12, 21, 0.98);
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        transition: 0.4s ease-in-out;
+        z-index: 998;
+        transform: none;
+        /* Reset desktop transform */
+        left: auto;
+        /* Reset desktop positioning */
+    }
+
+    .navBar.active .navBarMenu {
+        right: 0;
+    }
+
+    .navBarMenu p {
+        font-size: 1.5rem;
+        padding: 10px 40px;
+        /* Increased side padding for better touch target/look */
+        width: fit-content;
+        /* Make hover effect wrap text only */
+        text-align: center;
+        color: white;
+    }
+
+    /* Social Media flows naturally in the menu now (moved via JS) */
+    .navBarSocialMedia {
+        position: static;
+        width: 100%;
+        height: auto;
+        /* Override desktop height: 100% */
+        justify-content: center;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: 0.4s ease-in-out;
+        transition-delay: 0.1s;
+    }
+
+    .navBar.active .navBarSocialMedia {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* Reset/Fix icon size for mobile */
+    .navBarSocialMedia a {
+        height: 35px;
+        /* Larger icons */
+        width: auto;
+    }
+
+    .navBarSocialMedia_Image {
+        height: 100%;
+        width: auto;
+    }
+}

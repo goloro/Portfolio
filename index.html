@@ -1,208 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Gonzalo López</title>
 
-        <link rel = "stylesheet" href = "style.css">
-        <link rel = "stylesheet" href = "style-responsive.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gonzalo López Rodríguez</title>
 
-        <link rel="shortcut icon" href="Images/logo_glr_blue.png">
+    <link rel="shortcut icon" href="Images/G(Blanco)-GoloroLogo.png" type="image/x-icon">
 
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap" rel="stylesheet">
-    
-        <link href="https://fonts.googleapis.com/css2?family=Saira&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/navBar.css">
+    <link rel="stylesheet" href="CSS/common.css">
+    <link rel="stylesheet" href="CSS/Pages/home.css">
+    <link rel="stylesheet" href="CSS/Responsive/navBar.responsive.css">
+    <link rel="stylesheet" href="CSS/Responsive/Pages/home.responsive.css">
 
-    </head>
-    <body>
-        <!-- Nav -->
-        <nav id="Nav">
-            <a href="#Nav" id="logoNav"><img id="logoNavImg" src="Images/logo_glr_blue.png" width="75" height="75"></a>
-            <p id="nombreNav">Gonzalo López Rodríguez</p>
-            <div class="menuNav">
-                <a class="aMenuNav" href="#Skills"><p>Skills</p></a>
-                <a class="aMenuNav" href="#Projects"><p>Projects</p></a>
-                <a class="aMenuNav" href="#Contact"><p>Contact</p></a>
-            </div>
-            <!-- menu responsive -->
-            <img id="barraMenuRes" src="Images/menu.svg" width="35" height="35">
-        </nav>
-            <!-- Sub Menu Responsive -->
-            <div class="subMenuRes" id="subMenuRes">
-                <a class="itemRes" id="projectRes" href="#Skills"><p>Skills</p></a>
-                <a class="itemRes" id="skillsRes" href="#Projects"><p>Projects</p></a>
-                <a class="itemRes" id="aboutRes" href="#Contact"><p>Contact</p></a>
-            </div>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
 
-        <!-- Portada -->
-        <div class="contentDiv" id="Portada">
-            <p id="portadaTitulo">Check my recent projects!</p>  
-            
-            <div class="itemsPortada">
-                <div class="items_contentPortada">
-                    <!-- <div class="itemPortada" id="item1Portada">
-                        <h3 id="tituloPortada">To Do App</h3>
-                        <a href="https://goloro.github.io/ToDoApp/"><img src="Images/Webs/ToDoApp.png"></a>
-                    </div> -->
+<body>
+    <div class="navBar">
+        <img id="navBarLogo" src="Images/goloro_logo.svg" alt="Goloro White Logo">
+        <div class="navBarMenu">
+            <p id="navBarAbout" class="navBarMenu_P">About</p>
+            <p id="navBarProjects" class="navBarMenu_P">Projects</p>
+            <p id="navBarContact" class="navBarMenu_P">Contact</p>
+        </div>
+        <div class="navBarSocialMedia">
+            <a href="https://linkedin.com/in/gonzalo-lópez-rodríguez-b919101ba">
+                <img class="navBarSocialMedia_Image" id="navBarLinkedInLogo" src="Images/linkedInLogo(White).png"
+                    alt="LinkedIn Logo">
+            </a>
+            <a href="https://github.com/goloro">
+                <img class="navBarSocialMedia_Image" id="navBarGitHubLogo" src="Images/githubLogo(White).png"
+                    alt="GitHub Logo">
+            </a>
+            <a href="https://drive.google.com/file/d/123RBxI9oLEceCZcG7DbtWLiQBfkE-9c3/view?usp=sharing">
+                <img class="navBarSocialMedia_Image" id="navBarCVLogo" src="Images/cvLogo(White).png" alt="CV Logo">
+            </a>
+        </div>
+    </div>
 
-                    <div class="itemPortada" id="item1Portada">
-                        <h3 id="tituloPortada">To Do List</h3>
-                        <a href="https://goloro.github.io/ToDoList/"><img src="Images/Webs/todolist.png"></a>
+    <div class="mainContent">
+        <div class="hero-section">
+            <div class="mainContentText">
+                <h1>Gonzalo López Rodríguez</h1>
+                <p>Full Stack Web Developer & Graduated at Information Systems</p>
+                <div class="mainContentTextButtons">
+                    <div class="MCTB-Button" id="MCTB-Button-ViewMyWork">
+                        <p>View my Work</p>
                     </div>
-
-                    <div class="itemPortada" id="item2Portada">
-                        <h3 id="tituloPortada">United Motorsports</h3>
-                        <a href="https://unitedmotorsports.herokuapp.com"><img src="Images/Webs/unitedMotorsports.png"></a>
+                    <div class="MCTB-Button" id="MCTB-Button-GetInTouch">
+                        <p>Get in Touch</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.5" d="M4.5 12h15m0 0l-5.625-6m5.625 6l-5.625 6" />
+                        </svg>
                     </div>
-     
-                    <div class="itemPortada" id="item3Portada">
-                        <h3 id="tituloPortada">Api Calls</h3>
-                        <a href="https://goloro.github.io/ApiConsults/"><img src="Images/Webs/ApiConsults.png"></a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="code-card">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="code-content">
+                        <pre>
+    <span class="keyword">const</span> <span class="variable">developer</span> = {
+        <span class="property">name</span>: <span class="string">"Gonzalo López Rodríguez"</span>,
+        <span class="property">role</span>: <span class="string">"Full Stack Web Developer"</span>,
+        <span class="property">skills</span>: [
+            <span class="string">"JavaScript"</span>,
+            <span class="string">"Node.js"</span>,
+            <span class="string">"Python"</span>,
+            <span class="string">"Java"</span>
+        ],
+        <span class="property">hardWorker</span>: <span class="boolean">true</span>
+    };
+                        </pre>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Skills -->
-        <div class="contentDiv" id="Skills">
-            <div class ="titulo">
-              <hr class="linea" id="lder">
-              <p id="pTitulo">Skills</p>
-              <hr class="linea" id="lizq">  
-            </div>
-
-            <div class="contentSkills">
-                <img id="skill1" src="Images/js_logo.png" width="100" height="100">
-                <img id="skill2" src="Images/html_logo.png" width="100" height="100">
-                <img id="skill3" src="Images/css_logo.png" width="100" height="100">
-                <img id="skill4" src="Images/java_logo.png" width="100" height="100">
-                <img id="skill5" src="https://picodotdev.github.io/blog-bitix/assets/images/logotypes/spring.svg" width="100" height="100">
-                <img id="skill6" src="Images/git_logo.png" width="100" height="100">
-                <img id="skill7" src="Images/nodejs.png" width="100" height="100">
-                <img id="skill8" src="Images/mongodb.png" width="90" height="100">
+        <div class="mainContentProjectsPreview">
+            <div class="carousel-track">
+                <!-- Content loaded dynamically via JS/Pages/index.js -->
             </div>
         </div>
+    </div>
 
-        <!-- Projects -->
-        <div class="contentDiv" id="Projects">
-            <div class ="titulo">
-                <hr class="linea" id="lder">
-                <p id="pTitulo">Projects</p>
-                <hr class="linea" id="lizq">  
-            </div>
+    <footer class="footer">
+        <p>&copy; 2025 Gonzalo López Rodríguez. All rights reserved.</p>
+    </footer>
 
-            <div class="projectsContent">
-                <div class="item">
-                    <div class="cabeceraItem">
-                        <h3 id="Titulo">To Do List</h3>
-                        <a id="gitHub" href="https://github.com/goloro/ToDoList" target="blank"><img src="Images/github_logo_blue.png" width="25" height="25"></a>
-                    </div>
-                    <img id="aWebImage" src="Images/Webs/todolist.png">
-                    <div class="lenguajesItem">
-                        <p>JavaScript</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                    </div>
-                </div>
-    
-                <div class="item" id="derItem">
-                    <div class="cabeceraItem">
-                        <h3 id="Titulo">United Motorsports</h3>
-                        <a id="gitHub" href="https://github.com/goloro/UnitedMotorsports" target="blank"><img src="Images/github_logo_blue.png" width="25" height="25"></a>
-                    </div>
-                    <img id="aWebImage" src="Images/Webs/unitedMotorsports.png">
-                    <div class="lenguajesItem">
-                        <p>JavaScript</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                    </div>
-                </div>
-    
-                <div class="item">
-                    <div class="cabeceraItem">
-                        <h3 id="Titulo">API Calls</h3>
-                        <a id="gitHub" href="https://github.com/goloro/ApiConsults" target="blank"><img src="Images/github_logo_blue.png" width="25" height="25"></a>
-                    </div>
-                    <img id="aWebImage" src="Images/Webs/ApiConsults.png">
-                    <div class="lenguajesItem">
-                        <p>JavaScript</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                    </div>
-                </div>
-    
-                <!-- <div class="item" id="derItem">
-                    <div class="cabeceraItem">
-                        <h3 id="Titulo">To Do App</h3>
-                        <a id="gitHub" href="https://github.com/goloro/ToDoApp" target="blank"><img src="Images/github_logo_blue.png" width="25" height="25"></a>
-                    </div>
-                    <img id="aWebImage" src="Images/Webs/ToDoApp.png">
-                    <div class="lenguajesItem">
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JS</p>
-                        <p>MongoDB</p>
-                        <p>Node.js + Express</p>
-                    </div>
-                </div> -->
+    <script src="JS/navBar.js"></script>
+    <script src="JS/dataLoader.js"></script>
+    <script src="JS/Pages/index.js"></script>
+</body>
 
-                <div class="item" id="derItem">
-                    <div class="cabeceraItem">
-                        <h3 id="Titulo">Book Shop JPA</h3>
-                        <a id="gitHub" href="https://github.com/goloro/Book-Shop-JPA/tree/main" target="blank"><img src="Images/github_logo_blue.png" width="25" height="25"></a>
-                    </div>
-                    <img id="aWebImage" src="Images/Webs/default.png">
-                    <div class="lenguajesItem">
-                        <p>JSTL</p>
-                        <p>JPA</p>
-                        <p>MySQL</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ContactMe -->
-        <div class="contentDiv" id="Contact">
-            <div class ="titulo">
-                <hr class="linea" id="lder">
-                <p id="pTitulo">Contact</p>
-                <hr class="linea" id="lizq">  
-            </div>
-
-            <div class="contactContent">
-                <div class ="redesContact">
-                    <div class="redContact" id="redPrin">
-                        <img src="Images/github_logo_blue.png" width="60" height="60">
-                        <a id="linkContact" href="https://github.com/goloro" target="blank">goloro</a>
-                    </div>
-
-                    <div class="redContact" id="redPrin">
-                        <img src="Images/linkedin_logo_blue.png" width="60" height="60">
-                        <a id="linkContact" href="https://www.linkedin.com/in/gonzalo-lópez-rodríguez-b919101ba/" target="blank">Gonzalo López Rodríguez</a>
-                    </div>
-
-                    <div class="redContact">
-                        <img id="downloadIMG" src="Images/download.svg" width="60" height="60">
-                        <a id="linkContact" href="https://drive.google.com/file/d/1tI-g9_TUs9WhftfkjPvBKfDQFUFifv5c/view?usp=sharing" target="blank">View my CV!</a>
-                    </div>
-                </div>
-                <div class="mapaContact" id="map">
-
-                </div>
-            </div>
-        </div>
-
-        <script src="script.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMapa"></script>
-        
-    </body>
 </html>

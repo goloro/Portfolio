@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Gonzalo López Rodríguez</title>
+
+    <link rel="shortcut icon" href="../Images/G(Blanco)-GoloroLogo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../CSS/Pages/about.css">
+    <link rel="stylesheet" href="../CSS/navBar.css">
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/Responsive/navBar.responsive.css">
+    <link rel="stylesheet" href="../CSS/Responsive/Pages/about.responsive.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navBar">
+        <img id="navBarLogo" src="../Images/goloro_logo.svg" alt="Goloro White Logo">
+        <div class="navBarMenu">
+            <p id="navBarAbout" class="navBarMenu_P">About</p>
+            <p id="navBarProjects" class="navBarMenu_P">Projects</p>
+            <p id="navBarContact" class="navBarMenu_P">Contact</p>
+        </div>
+        <div class="navBarSocialMedia">
+            <a href="https://linkedin.com/in/gonzalo-lópez-rodríguez-b919101ba">
+                <img class="navBarSocialMedia_Image" id="navBarLinkedInLogo" src="../Images/linkedInLogo(White).png"
+                    alt="LinkedIn Logo">
+            </a>
+            <a href="https://github.com/goloro">
+                <img class="navBarSocialMedia_Image" id="navBarGitHubLogo" src="../Images/githubLogo(White).png"
+                    alt="GitHub Logo">
+            </a>
+            <a href="https://drive.google.com/file/d/123RBxI9oLEceCZcG7DbtWLiQBfkE-9c3/view?usp=sharing">
+                <img class="navBarSocialMedia_Image" id="navBarCVLogo" src="../Images/cvLogo(White).png" alt="CV Logo">
+            </a>
+        </div>
+    </div>
+
+    <div class="mainContent">
+        <p class="page-title">Trajectory</p>
+        <div class="timeline" id="timeline-container">
+            <!-- Content loaded dynamically via JS/Pages/about.js -->
+        </div>
+
+        <div class="skills-section">
+            <h2 class="page-title">Skills</h2>
+
+            <div class="skills-category">
+                <h3 class="category-title">Soft Skills</h3>
+                <div class="skills-grid" id="softSkills-grid">
+                    <!-- Content loaded dynamically via JS/Pages/about.js -->
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 class="category-title">Technologies</h3>
+                <div class="skills-grid" id="technologies-grid">
+                    <!-- Content loaded dynamically via JS/Pages/about.js -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Gonzalo López Rodríguez. All rights reserved.</p>
+    </footer>
+
+    <script src="../JS/navBar.js"></script>
+    <script src="../JS/dataLoader.js"></script>
+    <script src="../JS/Pages/about.js"></script>
+</body>
+
+</html>

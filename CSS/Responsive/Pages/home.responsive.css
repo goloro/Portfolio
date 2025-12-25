@@ -1,0 +1,74 @@
+/* Responsive Styles for Home Page */
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+    .mainContentText h1 {
+        font-size: 4rem;
+    }
+
+    .code-card {
+        max-width: 400px;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    body {
+        height: 130vh;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+
+    .mainContentText {
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .mainContentText h1 {
+        font-size: 3.5rem;
+    }
+
+    .mainContentText p {
+        font-size: 1.2rem;
+    }
+
+    .mainContentTextButtons {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .MCTB-Button {
+        height: 45px;
+        padding: 0 1rem;
+    }
+
+    .MCTB-Button p {
+        font-weight: 400;
+    }
+
+    .hero-visual {
+        width: 110%;
+        margin-bottom: 2rem;
+    }
+
+    .code-card {
+        max-width: 90%;
+        transform: none !important;
+        /* Remove 3D effect on mobile for better fit */
+    }
+
+    .code-card:hover {
+        transform: none;
+    }
+
+    .mainContentProjectsPreview {
+        padding: 1rem 0;
+    }
+}

@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+    font-family: "Space Grotesk", sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0 5%;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+
+.footer {
+    background: linear-gradient(135deg, #12345B 0%, #2A7AD5 100%);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.footer p {
+    margin: 0;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 1.5rem 0;
+        font-size: 0.8rem;
+    }
+}

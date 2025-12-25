@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "description": "A personal portfolio website to showcase my skills and projects.",
+    "image": null,
+    "featured": false,
+    "background": "linear-gradient(135deg, #12345B, #2A7AD5)",
+    "links": [
+      {
+        "text": "Live Demo",
+        "url": null
+      },
+      {
+        "text": "Github",
+        "url": "https://github.com/goloro/Portfolio/tree/main"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "ToDoApp",
+    "description": "A productivity app to organize tasks and improve efficiency.",
+    "image": "../Images/Proyects/ToDoAppCompleto.png",
+    "featured": true,
+    "background": "linear-gradient(135deg, #3a7bd5, #3a6073)",
+    "links": [
+      {
+        "text": "Live Demo",
+        "url": "https://goloro.github.io/FrontEnd-ToDoApp/HTML/app.html"
+      },
+      {
+        "text": "Github (FrontEnd)",
+        "url": "https://github.com/goloro/FrontEnd-ToDoApp"
+      },
+      {
+        "text": "Github (BackEnd)",
+        "url": "https://github.com/goloro/BackEnd-ToDoApp"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Means",
+    "description": null,
+    "image": "../Images/Proyects/MeansCompleto.png",
+    "featured": false,
+    "background": "linear-gradient(135deg, #0052D4, #4364F7)",
+    "links": [
+      {
+        "text": "Github (FrontEnd)",
+        "url": "https://github.com/goloro/Means"
+      },
+      {
+        "text": "Github (BackEnd)",
+        "url": "https://github.com/goloro/Means-Back"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "GoloPop",
+    "description": null,
+    "image": "../Images/Proyects/GoloPopCompleto.png",
+    "featured": false,
+    "background": "linear-gradient(135deg, #1A2980, #26D0CE)",
+    "links": [
+      {
+        "text": "Github (FrontEnd)",
+        "url": "https://github.com/goloro/Frontend-GoloPop"
+      },
+      {
+        "text": "Github (BackEnd)",
+        "url": "https://github.com/goloro/Backend-GoloPop"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Book-Shop-JPA",
+    "description": null,
+    "image": null,
+    "featured": false,
+    "background": "linear-gradient(135deg, #00c6ff, #0072ff)",
+    "links": [
+      {
+        "text": "Github",
+        "url": "https://github.com/goloro/Book-Shop-JPA"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "UnitedMotorsports",
+    "description": null,
+    "image": "../Images/Proyects/UnitedMotorsportsCompleto.png",
+    "featured": false,
+    "background": "linear-gradient(135deg, #4b6cb7, #182848)",
+    "links": [
+      {
+        "text": "Github",
+        "url": "https://github.com/goloro/UnitedMotorsports"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "ApiConsults",
+    "description": null,
+    "image": "../Images/Proyects/ApiConsults.png",
+    "featured": false,
+    "background": "linear-gradient(135deg, #000428, #004e92)",
+    "links": [
+      {
+        "text": "Live Demo",
+        "url": "https://goloro.github.io/ApiConsults/"
+      },
+      {
+        "text": "Github",
+        "url": "https://github.com/goloro/ApiConsults"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "ToDoList",
+    "description": null,
+    "image": "../Images/Proyects/ToDoList.png",
+    "featured": false,
+    "background": "linear-gradient(135deg, #1e3c72, #2a5298)",
+    "links": [
+      {
+        "text": "Live Demo",
+        "url": "https://goloro.github.io/ToDoList/"
+      },
+      {
+        "text": "Github",
+        "url": "https://github.com/goloro/ToDoList"
+      }
+    ]
+  }
+]
