@@ -186,7 +186,7 @@ body {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 2rem;
 }
 
@@ -195,7 +195,7 @@ body {
     backdrop-filter: blur(15px);
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.05);
-    padding: 2rem;
+    padding: 1.5rem;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     display: flex;
     flex-direction: column;
@@ -244,7 +244,7 @@ body {
 
 .skill-card h4 {
     margin: 0 0 0.8rem 0;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 700;
     color: #fff;
     cursor: default;
@@ -264,6 +264,6 @@ body {
 }
 
 .skill-icon svg {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }

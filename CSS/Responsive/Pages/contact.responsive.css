@@ -1,0 +1,30 @@
+/* Responsive Styles for Contact Page */
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+    .contact-form {
+        max-width: 80%;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .mainContent {
+        padding-top: 2rem;
+    }
+
+    .contact-container {
+        padding: 0 5%;
+        margin-bottom: 2rem;
+    }
+
+    .contact-form {
+        max-width: 100%;
+        padding: 1.5rem;
+    }
+
+    /* Make buttons full width (already is width:100%) but maybe larger touch target? */
+    .btn-submit {
+        padding: 1.2rem;
+    }
+}

@@ -1,0 +1,43 @@
+/* Responsive Styles for Projects Page */
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+    .projects-gallery {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .projects-gallery {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding-bottom: 2rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .project-card {
+        margin: 0;
+    }
+
+    .project-image {
+        height: 160px;
+    }
+
+    .project-content {
+        padding: 1rem;
+    }
+
+    .project-content h3 {
+        font-size: 1.2rem;
+    }
+
+    /* Buttons on mobile */
+    .btn-project {
+        /* Keep the 50% logic requested, but maybe reduce font size slightly */
+        font-size: 0.8rem;
+        padding: 0 0.2rem;
+    }
+}
