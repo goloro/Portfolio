@@ -17,6 +17,17 @@
         height: 130vh;
     }
 
+    /* Fixed Navbar for Home Page Mobile */
+    .navBar {
+        height: 70px;
+        padding: 20px 5% 0 5%;
+    }
+
+    .navBarMenu {
+        top: 70px;
+        height: calc(100vh - 85px);
+    }
+
     .hero-section {
         flex-direction: column;
         justify-content: center;
