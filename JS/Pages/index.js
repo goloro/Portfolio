@@ -29,7 +29,11 @@ async function loadCarousel() {
         card.className = "project-card";
 
         const img = document.createElement("img");
-        const imagePath = project.image;
+        let imagePath = project.image;
+        // Fix path for root index.html (remove ../ if present)
+        if (imagePath && imagePath.startsWith("../")) {
+            imagePath = imagePath.substring(3);
+        }
 
         img.src = imagePath;
         img.alt = project.title;
