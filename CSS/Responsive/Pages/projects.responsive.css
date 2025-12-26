@@ -40,4 +40,11 @@
         font-size: 0.8rem;
         padding: 0 0.2rem;
     }
+
+    .project-content p {
+        display: block;
+        -webkit-line-clamp: unset;
+        line-clamp: unset;
+        overflow: visible;
+    }
 }
