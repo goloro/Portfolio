@@ -5,7 +5,7 @@
         "type": "Work",
         "role": "AI Trainer (Freelance)",
         "company": "Outlier",
-        "description": "Training AI models verifying and validating the correct behavior of the models.",
+        "description": "Refining AI models through adversarial prompting to identify edge cases and improve accuracy.",
         "logo": "../Images/OutlierLogo.png",
         "side": "right"
     },
@@ -15,7 +15,7 @@
         "type": "Studies",
         "role": "Sistemas de Información Degree",
         "company": "Universidad Politécnica de Madrid (UPM)",
-        "description": "Currently pursuing a degree to deepen my understanding of information systems and computer science.",
+        "description": "This program integrates robust software engineering with business strategy and team management, allowing me to align technical execution with overarching business goals",
         "logo": "../Images/UPMLogo.png",
         "side": "left"
     },
@@ -25,7 +25,7 @@
         "type": "Work",
         "role": "Backend Developer Intern",
         "company": "Webel",
-        "description": "Completed my internship as a Backend Developer, gaining practical experience in a professional environment.",
+        "description": "Backend Developer Intern at a home services startup. I was responsible for developing new features and refactoring existing modules, contributing to code optimization and scalability in a production environment.",
         "logo": "../Images/WebelLogo.png",
         "side": "right"
     },
@@ -35,7 +35,7 @@
         "type": "Studies",
         "role": "FP Web Development",
         "company": "Innovación en Formación Profesional (IFP)",
-        "description": "Started my journey in web development, learning the fundamentals of frontend and backend technologies.",
+        "description": "This program provided a solid Full Stack foundation through a highly practical, project-based methodology. The continuous hands-on coding approach allowed me to rapidly master both frontend and backend technologies.",
         "logo": "../Images/IFPLogo.png",
         "side": "left"
     }
